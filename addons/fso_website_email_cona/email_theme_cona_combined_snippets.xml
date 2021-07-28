@@ -151,7 +151,8 @@
                                                                                                             <td align="left"
                                                                                                                 class="imageContent ckediting_enabled"
                                                                                                                 valign="top">
-                                                                                                                <img class="flexibleImage"
+                                                                                                                <img alt="Concordia Sozialprojekte Logo"
+                                                                                                                     class="flexibleImage"
                                                                                                                      src="/fso_website_email_cona/static/src/img/Concordialogo.png"/>
                                                                                                             </td>
                                                                                                         </tr>
@@ -221,7 +222,8 @@
                                                                                                             <td align="left"
                                                                                                                 class="imageContent ckediting_enabled"
                                                                                                                 valign="top">
-                                                                                                                <img class="flexibleImage"
+                                                                                                                <img alt="Portrait Markus Inama"
+                                                                                                                     class="flexibleImage"
                                                                                                                      src="/fso_website_email_cona/static/src/img/markus.png"/>
                                                                                                             </td>
                                                                                                         </tr>
@@ -246,7 +248,7 @@
                                                                                                                 </h3>
 
                                                                                                                 <p style="text-align: center;">
-                                                                                                                    <img src="/fso_website_email_cona/static/src/img/markus-sig.png"/>
+                                                                                                                    <img alt="Signatur von Markus Inama" src="/fso_website_email_cona/static/src/img/markus-sig.png"/>
                                                                                                                     <br></br>
                                                                                                                 </p>
 
@@ -394,25 +396,29 @@
 
                                                                                                                     <a href="https://www.facebook.com/concordiasozialprojekteAT"
                                                                                                                        target="_blank">
-                                                                                                                        <img class="flexibleImage mediaicon"
+                                                                                                                        <img alt="Facebook Icon"
+                                                                                                                             class="flexibleImage mediaicon"
                                                                                                                              src="/fso_website_email_cona/static/src/icons/rnb_ico_fb.png"
                                                                                                                              style="text-align:center; width:32px; height:32px;"/>
                                                                                                                     </a>&amp;nbsp;
                                                                                                                     <a href="https://www.instagram.com/concordiasozialprojekte/"
                                                                                                                        target="_blank">
-                                                                                                                        <img class="flexibleImage mediaicon"
+                                                                                                                        <img alt="Instagram Icon"
+                                                                                                                             class="flexibleImage mediaicon"
                                                                                                                              src="/fso_website_email_cona/static/src/icons/rnb_ico_ig.png"
                                                                                                                              style="text-align:center; width:32px; height:32px;"/>
                                                                                                                     </a>&amp;nbsp;
                                                                                                                     <a href="https://www.linkedin.com/company/concordia-social-projects/"
                                                                                                                        target="_blank">
-                                                                                                                        <img class="flexibleImage mediaicon"
+                                                                                                                        <img alt="LinkedIn Icon"
+                                                                                                                             class="flexibleImage mediaicon"
                                                                                                                              src="/fso_website_email_cona/static/src/icons/rnb_ico_in.png"
                                                                                                                              style="text-align:center; width:32px; height:32px;"/>
                                                                                                                     </a>&amp;nbsp;
                                                                                                                     <a href="https://www.youtube.com/channel/UC89sqWPCbTNY5AvT2hSoINw"
                                                                                                                        target="_blank">
-                                                                                                                        <img class="flexibleImage mediaicon"
+                                                                                                                        <img alt="Youtube Icon"
+                                                                                                                             class="flexibleImage mediaicon"
                                                                                                                              src="/fso_website_email_cona/static/src/icons/rnb_ico_yt.png"
                                                                                                                              style="text-align:center; width:32px; height:32px;"/>
                                                                                                                     </a>
@@ -433,12 +439,14 @@
                                                                                                                 class="textContent ckediting_enabled"
                                                                                                                 style="text-align:right;"
                                                                                                                 valign="right">
-                                                                                                                <img class="flexibleImage siegel"
+                                                                                                                <img alt="Spendengütesiegel"
+                                                                                                                     class="flexibleImage siegel"
                                                                                                                      src="/fso_website_email_cona/static/src/img/spendenguetesiegel-concordia-sozialprojekte-stiftung.png"
                                                                                                                      style="width: 100px; float: right; padding-bottom: 8px;"/>
                                                                                                                 <br></br>
-                                                                                                                <img class="flexibleImage siegel"
-                                                                                                                        src="/fso_website_email_cona/static/src/img/spendenabsetzbarkeit-concordia-sozialprojekte-stiftung.png"
+                                                                                                                <img alt="Spendenabsetzbarkeit"
+                                                                                                                     class="flexibleImage siegel"
+                                                                                                                     src="/fso_website_email_cona/static/src/img/spendenabsetzbarkeit-concordia-sozialprojekte-stiftung.png"
                                                                                                                      style="width: 100px; float: right;"/>
                                                                                                             </td>
                                                                                                         </tr>

@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+
+        <!-- INHERIT AND EXTEND theme_default_snippets -->
+        <template id="email_theme_cona_snippets_overrides_prat2" inherit_id="fso_website_email.theme_framework_snippets"
+                  name="Email Theme cona Snippet overrides part2">
+
+            <xpath expr="//li[@id='snippet_menu_special']" position="after">
+                <li id="snippet_menu_combined_snippets_cona">
+                    <a href="#combined_snippets_cona" data-toggle="tab">Combined</a>
+                </li>
+            </xpath>
+
+            <!-- ======================= -->
+            <!--  cona COMBINED SNIPPETS -->
+            <!-- ======================= -->
+            <xpath expr="//div[@id='snippet_email_special']" position="after">
+                <div id="combined_snippets_cona" class="tab-pane fade">
+
+                    <!-- HEADER SNIPPET BLOCK ALLG -->
+                    <!-- =============== -->
+                    <div>
+                        <!-- Icon and name -->
+                        <div class="oe_snippet_thumbnail">
+                            <img class="oe_snippet_thumbnail_img"
+                                 src="/fso_website_email_cona/static/src/icons/header_snippet.png"/>
+                            <span class="oe_snippet_thumbnail_title">Header Snippet</span>
+                        </div>
+                        <div id="combinedheadersnippet" class="oe_snippet_body ckediting_disabled cona_bin">
+                            <div class="ckediting_disabled snippet_block snippet_block_text_twocol">
+                                <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                       class="flexibleContainer">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td align="center" class="flexibleContainerCell"
+                                                                valign="top">
+                                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                                       class="nestedContainer">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td align="center"
+                                                                                class="nestedContainerCell"
+                                                                                valign="top">
+                                                                                <table border="0" cellpadding="0"
+                                                                                       cellspacing="0"
+                                                                                       class="contentTable">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td class="textContent">
+                                                                                                <table align="left"
+                                                                                                       border="0"
+                                                                                                       cellpadding="0"
+                                                                                                       cellspacing="0"
+                                                                                                       class="flexibleContainerLeft">
+                                                                                                    <tbody>
+                                                                                                        <tr>
+                                                                                                            <td align="left"
+                                                                                                                class="textContent ckediting_enabled headerspendentextlinks"
+                                                                                                                valign="top"
+                                                                                                                style="width: 350px;">
+                                                                                                                <p>
+                                                                                                                    <span style="color: rgb(51, 51, 51); font-size: 16px; background-color: transparent;">
+                                                                                                                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et.
+                                                                                                                    </span>
+                                                                                                                    <br></br>
+                                                                                                                </p>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </tbody>
+                                                                                                </table>
+
+                                                                                                <table align="right"
+                                                                                                       border="0"
+                                                                                                       cellpadding="0"
+                                                                                                       cellspacing="0"
+                                                                                                       class="flexibleContainerRight">
+                                                                                                    <tbody>
+                                                                                                        <tr>
+                                                                                                            <td align="right"
+                                                                                                                class="textContent ckediting_enabled headerspenden"
+                                                                                                                valign="top"
+                                                                                                                style="width: 350px;">
+                                                                                                                <h3>
+                                                                                                                    <a href="https://www.concordia.or.at/de/spenden"
+                                                                                                                       target="_blank">
+                                                                                                                        <span style="color:#F18E00;">
+                                                                                                                            jetzt
+                                                                                                                            spenden
+                                                                                                                        </span>
+                                                                                                                    </a>
+                                                                                                                </h3>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </tbody>
+                                                                                                </table>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="ckediting_disabled snippet_block snippet_block_text_image_right">
+                                <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                       class="flexibleContainer">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td align="center" class="flexibleContainerCell"
+                                                                valign="top">
+                                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                                       class="nestedContainer">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td align="center"
+                                                                                class="nestedContainerCell"
+                                                                                valign="top">
+                                                                                <table border="0" cellpadding="0"
+                                                                                       cellspacing="0"
+                                                                                       class="contentTable">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td class="textContent">
+                                                                                                <table align="right"
+                                                                                                       border="0"
+                                                                                                       cellpadding="0"
+                                                                                                       cellspacing="0"
+                                                                                                       class="flexibleContainerRight">
+                                                                                                    <tbody>
+                                                                                                        <tr>
+                                                                                                            <td align="left"
+                                                                                                                class="imageContent ckediting_enabled"
+                                                                                                                valign="top">
+                                                                                                                <img class="flexibleImage"
+                                                                                                                     src="/fso_website_email_cona/static/src/img/Concordialogo.png"/>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </tbody>
+                                                                                                </table>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FOOTER SNIPPET BLOCK -->
+                    <!-- =============== -->
+                    <div>
+                        <!-- Icon and name -->
+                        <div class="oe_snippet_thumbnail">
+                            <img class="oe_snippet_thumbnail_img"
+                                 src="/fso_website_email_cona/static/src/icons/footer_snippet.png"/>
+                            <span class="oe_snippet_thumbnail_title">Footer Snippet</span>
+                        </div>
+                        <div id="combinedsnippetfooter" class="oe_snippet_body ckediting_disabled cona_bin">
+                            <div class="ckediting_disabled snippet_block snippet_block_text_image_left">
+                                <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                       class="flexibleContainer">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td align="center" class="flexibleContainerCell"
+                                                                valign="top">
+                                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                                       class="nestedContainer">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td align="center"
+                                                                                class="nestedContainerCell"
+                                                                                valign="top">
+                                                                                <table border="0" cellpadding="0"
+                                                                                       cellspacing="0"
+                                                                                       class="contentTable">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td class="textContent">
+                                                                                                <table align="left"
+                                                                                                       border="0"
+                                                                                                       cellpadding="0"
+                                                                                                       cellspacing="0"
+                                                                                                       class="flexibleContainerLeft">
+                                                                                                    <tbody>
+                                                                                                        <tr>
+                                                                                                            <td align="left"
+                                                                                                                class="imageContent ckediting_enabled"
+                                                                                                                valign="top">
+                                                                                                                <img class="flexibleImage"
+                                                                                                                     src="/fso_website_email_cona/static/src/img/markus.png"/>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </tbody>
+                                                                                                </table>
+
+                                                                                                <table align="right"
+                                                                                                       border="0"
+                                                                                                       cellpadding="0"
+                                                                                                       cellspacing="0"
+                                                                                                       class="flexibleContainerRight">
+                                                                                                    <tbody>
+                                                                                                        <tr>
+                                                                                                            <td class="textContent ckediting_enabled"
+                                                                                                                valign="top">
+                                                                                                                <h3 style="text-align: center;">
+                                                                                                                    <span style="color:#736664;">
+                                                                                                                        In
+                                                                                                                        Dankbarkeit
+                                                                                                                        verbunden
+                                                                                                                    </span>
+                                                                                                                </h3>
+
+                                                                                                                <p style="text-align: center;">
+                                                                                                                    <img src="/fso_website_email_cona/static/src/img/markus-sig.png"/>
+                                                                                                                    <br></br>
+                                                                                                                </p>
+
+                                                                                                                <p style="text-align: center; color: black;">
+                                                                                                                    Pater
+                                                                                                                    Markus
+                                                                                                                    Inama
+                                                                                                                    SJ
+                                                                                                                </p>
+
+                                                                                                                <p style="text-align: center;">
+                                                                                                                    Vorstand
+                                                                                                                </p>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </tbody>
+                                                                                                </table>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div id="Footerend"
+                                 class="ckediting_disabled snippet_block snippet_block_text_threecol cona_sb_bg_orange">
+                                <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                       class="flexibleContainer">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td align="center" class="flexibleContainerCell"
+                                                                valign="top">
+                                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                                       class="nestedContainer">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td align="center"
+                                                                                class="nestedContainerCell"
+                                                                                valign="top">
+                                                                                <table border="0" cellpadding="0"
+                                                                                       cellspacing="0"
+                                                                                       class="contentTable">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td class="textContent">
+                                                                                                <table align="left"
+                                                                                                       border="0"
+                                                                                                       cellpadding="0"
+                                                                                                       cellspacing="0"
+                                                                                                       class="flexibleContainer33 flexibleContainer33left">
+                                                                                                    <tbody>
+                                                                                                        <tr>
+                                                                                                            <td align="left"
+                                                                                                                class="textContent ckediting_enabled"
+                                                                                                                style="text-align:left;"
+                                                                                                                valign="top">
+                                                                                                                <p class=""
+                                                                                                                   style="text-align: left;">
+                                                                                                                    CONCORDIA
+                                                                                                                    Sozialprojekte
+                                                                                                                    Gemeinnützige
+                                                                                                                    Privatstiftung
+                                                                                                                </p>
+                                                                                                                <p class="cona_tiny"
+                                                                                                                   style="text-align: left;">
+                                                                                                                    <br></br>
+                                                                                                                    Hochstettergasse
+                                                                                                                    6
+                                                                                                                    <br></br>
+                                                                                                                    1020
+                                                                                                                    Wien
+                                                                                                                    <br></br>
+                                                                                                                    Tel.:
+                                                                                                                    +43
+                                                                                                                    1
+                                                                                                                    2128149
+                                                                                                                    <br></br>
+                                                                                                                    office@concordia.or.at
+                                                                                                                    <br></br>
+                                                                                                                    concordia.or.at
+                                                                                                                </p><br></br>
+
+                                                                                                                <p class="cona_tiny"
+                                                                                                                   style="text-align: left;">
+                                                                                                                    Datenschutzerklärung
+                                                                                                                </p>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </tbody>
+                                                                                                </table>
+
+                                                                                                <table align="left"
+                                                                                                       border="0"
+                                                                                                       cellpadding="0"
+                                                                                                       cellspacing="0"
+                                                                                                       class="flexibleContainer33 flexibleContainer33middle">
+                                                                                                    <tbody>
+                                                                                                        <tr>
+                                                                                                            <td align="center"
+                                                                                                                class="textContent ckediting_enabled"
+                                                                                                                style="text-align:center;"
+                                                                                                                valign="top">
+                                                                                                                <p class=""
+                                                                                                                   style="text-align: center;">
+                                                                                                                    Spendenkonto:
+                                                                                                                    <br></br>
+                                                                                                                    IBAN:
+                                                                                                                    AT28
+                                                                                                                    3200
+                                                                                                                    0000
+                                                                                                                    1318
+                                                                                                                    7893
+                                                                                                                </p><br></br>
+
+                                                                                                                <p class="cona_tiny"
+                                                                                                                   style="text-align: center;">
+                                                                                                                    Du
+                                                                                                                    kannst
+                                                                                                                    Dich
+                                                                                                                    jederzeit
+                                                                                                                    abmelden
+                                                                                                                    oder
+                                                                                                                    Deine
+                                                                                                                    Kontaktdaten
+                                                                                                                    bearbeiten.
+                                                                                                                </p><br></br>
+
+                                                                                                                <p class="cona_tiny mediaicons"
+                                                                                                                   style="text-align: center;">
+
+                                                                                                                    <a href="https://www.facebook.com/concordiasozialprojekteAT"
+                                                                                                                       target="_blank">
+                                                                                                                        <img class="flexibleImage mediaicon"
+                                                                                                                             src="/fso_website_email_cona/static/src/icons/rnb_ico_fb.png"
+                                                                                                                             style="text-align:center; width:32px; height:32px;"/>
+                                                                                                                    </a>&amp;nbsp;
+                                                                                                                    <a href="https://www.instagram.com/concordiasozialprojekte/"
+                                                                                                                       target="_blank">
+                                                                                                                        <img class="flexibleImage mediaicon"
+                                                                                                                             src="/fso_website_email_cona/static/src/icons/rnb_ico_ig.png"
+                                                                                                                             style="text-align:center; width:32px; height:32px;"/>
+                                                                                                                    </a>&amp;nbsp;
+                                                                                                                    <a href="https://www.linkedin.com/company/concordia-social-projects/"
+                                                                                                                       target="_blank">
+                                                                                                                        <img class="flexibleImage mediaicon"
+                                                                                                                             src="/fso_website_email_cona/static/src/icons/rnb_ico_in.png"
+                                                                                                                             style="text-align:center; width:32px; height:32px;"/>
+                                                                                                                    </a>&amp;nbsp;
+                                                                                                                    <a href="https://www.youtube.com/channel/UC89sqWPCbTNY5AvT2hSoINw"
+                                                                                                                       target="_blank">
+                                                                                                                        <img class="flexibleImage mediaicon"
+                                                                                                                             src="/fso_website_email_cona/static/src/icons/rnb_ico_yt.png"
+                                                                                                                             style="text-align:center; width:32px; height:32px;"/>
+                                                                                                                    </a>
+                                                                                                                </p>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </tbody>
+                                                                                                </table>
+
+                                                                                                <table align="left"
+                                                                                                       border="0"
+                                                                                                       cellpadding="0"
+                                                                                                       cellspacing="0"
+                                                                                                       class="flexibleContainer33 flexibleContainer33right">
+                                                                                                    <tbody>
+                                                                                                        <tr>
+                                                                                                            <td align="right"
+                                                                                                                class="textContent ckediting_enabled"
+                                                                                                                style="text-align:right;"
+                                                                                                                valign="right">
+                                                                                                                <img class="flexibleImage siegel"
+                                                                                                                     src="/fso_website_email_cona/static/src/img/spendenguetesiegel-concordia-sozialprojekte-stiftung.png"
+                                                                                                                     style="width: 100px; float: right; padding-bottom: 8px;"/>
+                                                                                                                <br></br>
+                                                                                                                <img class="flexibleImage siegel"
+                                                                                                                        src="/fso_website_email_cona/static/src/img/spendenabsetzbarkeit-concordia-sozialprojekte-stiftung.png"
+                                                                                                                     style="width: 100px; float: right;"/>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </tbody>
+                                                                                                </table>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+
+
+    </data>
+</openerp>

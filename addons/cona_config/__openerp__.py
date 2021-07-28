@@ -2,7 +2,7 @@
 
 {
     'name': 'cona_config',
-    'summary': '''FS-Online cona instance configuration''',
+    'summary': '''FS-Online Cona instance configuration''',
     'description': '''
 FS-Online Instance Configuration
 ================================
@@ -14,14 +14,18 @@ Customer configuration for the instance cona
 - CSS
 - Translations
     ''',
-    'author': 'Michael Karrer (michael.karrer@datadialog.net), DataDialog',
+    'author': 'Joachim Grubelnik (joachim.grubelnik@datadialog.net), DataDialog',
     'version': '1.0',
     'website': 'https://www.datadialog.net',
     'installable': True,
     'depends': [
-        'fsonline',
+        'sale',
+        'portal_sale',
+        'website',
+        'website_sale_donate',
     ],
-    'data': [],
+    'data': [
+        'views/templates.xml',
+        'views/snippet_options.xml',
+    ],
 }
-
-    

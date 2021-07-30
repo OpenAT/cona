@@ -87,7 +87,94 @@
                 
                 <meta name="viewport" content="width=device-width"/>
             </head>
+               <t t-set="olconditionals">
+                <![CDATA[
+                <!--[if mso 14]>
+                    <style type="text/css">
+                        h1, h2, h3, h4, h5, h6,
+                        .headerCell, .footerCell,
+                        .textContent, .textContentLast,
+                        .buttonContent,
+                        .emailCalendarDay, .emailCalendarMonth {
+                            font-family: 'Arial', Verdana !important;
+                            mso-line-height-rule: exactly;
+                        }
+                    </style>
+                <![endif]-->
+                <!--[if mso 16]>
+                    <style type="text/css">
+                        h1, h2, h3, h4, h5, h6,
+                        .headerCell, .footerCell,
+                        .textContent, .textContentLast,
+                        .buttonContent,
+                        .emailCalendarDay, .emailCalendarMonth {
+                            font-family: 'Arial', Verdana !important;
+                            mso-line-height-rule: exactly;
+                        }
+                    </style>
+                <![endif]-->
 
+                <!--[if mso]>
+                    <style type="text/css">
+                            /* Stop Outlook resizing small text. */
+                            * {
+                                 -ms-text-size-adjust: 100%;
+                            }
+                    </style>
+                    <style type="text/css">
+                            /* Stop Outlook from adding extra spacing to tables. */
+                            table,
+                            td {
+                                mso-table-lspace: 0pt;
+                                mso-table-rspace: 0pt;
+                            }
+                    </style>
+                    <style type="text/css">
+                            /* Use a better rendering method when resizing images in Outlook IE. */
+                            img {
+                                 -ms-interpolation-mode:bicubic;
+                            }
+                    </style>
+                    <style type="text/css">
+                            /* Prevent Windows 10 Mail from underlining links. Styles for underlined links should be inline. */
+                            a {
+                            text-decoration: none;
+                            }
+                    </style>
+                    <style type="text/css">
+                        * {
+                            font-family: 'Arial', Verdana !important;
+                        }
+                    </style>
+                    <style type="text/css">
+                      body,
+                      p,
+                      a,
+                      #emailBody ul li,
+                      #emailBody ol li {
+                            font-family: 'Arial', Verdana !important;
+                        }
+                    </style>
+                <![endif]-->
+                <!--[if mso]>
+                    <style type="text/css">
+                    * {-webkit-text-size-adjust: none}
+                    #emailBody span.drop_in_button a {
+                        padding: 0px 0px;
+                    }
+                    </style>
+                <![endif]-->
+                <!-—[if (gte mso 9) | (IE)]>
+                    <style type="text/css">
+                        /* Target all Outlook versions */
+                                table, tr, td, p{font-family: 'Arial', Verdana !important;}
+                    </style>
+                <![endif]-->
+            ]]>
+                </t>
+                <t t-raw="olconditionals">
+
+                </t>
 
             <body class="ckediting_disabled" contenteditable="false">
                 <!-- WRAP COMMON ASSETS AND BODY TAGS AROUND THEME 'cona' -->

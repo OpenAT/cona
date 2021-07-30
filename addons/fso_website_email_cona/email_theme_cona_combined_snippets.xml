@@ -395,32 +395,36 @@
                                                                                                                    style="text-align: center;">
 
                                                                                                                     <a href="https://www.facebook.com/concordiasozialprojekteAT"
-                                                                                                                       target="_blank">
+                                                                                                                       target="_blank"
+                                                                                                                        style="display: inline-block; text-decoration: none;">
                                                                                                                         <img alt="Facebook Icon"
                                                                                                                              class="flexibleImage mediaicon"
                                                                                                                              src="/fso_website_email_cona/static/src/icons/rnb_ico_fb.png"
-                                                                                                                             style="text-align:center; width:32px; height:32px;"/>
+                                                                                                                             style="text-align:center; width:32px; height:32px;" align="middle" vspace="5" hspace="5"/>
                                                                                                                     </a>&amp;nbsp;
                                                                                                                     <a href="https://www.instagram.com/concordiasozialprojekte/"
-                                                                                                                       target="_blank">
+                                                                                                                       target="_blank"
+                                                                                                                    style="display: inline-block; text-decoration: none;">
                                                                                                                         <img alt="Instagram Icon"
                                                                                                                              class="flexibleImage mediaicon"
                                                                                                                              src="/fso_website_email_cona/static/src/icons/rnb_ico_ig.png"
-                                                                                                                             style="text-align:center; width:32px; height:32px;"/>
+                                                                                                                             style="text-align:center; width:32px; height:32px;" align="middle" vspace="5" hspace="5"/>
                                                                                                                     </a>&amp;nbsp;
                                                                                                                     <a href="https://www.linkedin.com/company/concordia-social-projects/"
-                                                                                                                       target="_blank">
+                                                                                                                       target="_blank"
+                                                                                                                    style="display: inline-block; text-decoration: none;">
                                                                                                                         <img alt="LinkedIn Icon"
                                                                                                                              class="flexibleImage mediaicon"
                                                                                                                              src="/fso_website_email_cona/static/src/icons/rnb_ico_in.png"
-                                                                                                                             style="text-align:center; width:32px; height:32px;"/>
+                                                                                                                             style="text-align:center; width:32px; height:32px;" align="middle" vspace="5" hspace="5"/>
                                                                                                                     </a>&amp;nbsp;
                                                                                                                     <a href="https://www.youtube.com/channel/UC89sqWPCbTNY5AvT2hSoINw"
-                                                                                                                       target="_blank">
+                                                                                                                       target="_blank"
+                                                                                                                    style="display: inline-block; text-decoration: none;">
                                                                                                                         <img alt="Youtube Icon"
                                                                                                                              class="flexibleImage mediaicon"
                                                                                                                              src="/fso_website_email_cona/static/src/icons/rnb_ico_yt.png"
-                                                                                                                             style="text-align:center; width:32px; height:32px;"/>
+                                                                                                                             style="text-align:center; width:32px; height:32px;" align="middle" vspace="5" hspace="5"/>
                                                                                                                     </a>
                                                                                                                 </p>
                                                                                                             </td>
@@ -439,7 +443,7 @@
                                                                                                                 class="textContent ckediting_enabled"
                                                                                                                 style="text-align:right;"
                                                                                                                 valign="right">
-                                                                                                                <img alt="Spendengütesiegel"
+                                                                                                                <img alt="Spendenguetesiegel"
                                                                                                                      class="flexibleImage siegel"
                                                                                                                      src="/fso_website_email_cona/static/src/img/spendenguetesiegel-concordia-sozialprojekte-stiftung.png"
                                                                                                                      style="width: 100px; float: right; padding-bottom: 8px;"/>

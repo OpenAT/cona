@@ -232,9 +232,9 @@
                 </li>
             </div>
             
-            <div data-snippet-option-id='cona_image_valign'
+<!--            <div data-snippet-option-id='cona_image_valign'
                  data-selector=".snippet_block_text_image_left">
-                <!-- drop_in options menu -->
+                &lt;!&ndash; drop_in options menu &ndash;&gt;
                 <li class="dropdown-submenu" data-required="true">
                     <a tabindex="-1" href="#">Vertikale Bildposition</a>
                     <ul class="dropdown-menu">
@@ -243,7 +243,7 @@
                         <li data-value='cona_image_valign_bottom'><a>Unten</a></li>
                     </ul>
                 </li>
-            </div>
+            </div>-->
             
         </xpath>
         

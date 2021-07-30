@@ -89,8 +89,8 @@
     background-color: #F18E00;
     color: white;
 }
-.cona_sb_fg_grey .flexibleContainerCell,
-.cona_sb_bg_grey .flexibleContainerCell .nestedContainerCell {
+.cona_sb_bg_grey .flexibleContainerCell,
+.cona_sb_fg_grey .flexibleContainerCell .nestedContainerCell {
     background-color: #d2d2d2;
     color: black;
 }

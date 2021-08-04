@@ -56,6 +56,7 @@
         <xpath expr="//link[@id='bootstrap_css']" position="replace">
             <!-- JOES STUFF -->
             <!-- <link rel='stylesheet' href='/cona_config/static/src/css/cona_custom_fonts.css' t-ignore="true"/> -->
+            <link rel='stylesheet' href='/cona_config/static/src/css/cona_custom_fonts.css' t-ignore="true"/>
             <!--<link rel='stylesheet' href='/cona_config/static/src/css/bootstrap_cona/css/bootstrap.min.css' t-ignore="true"/> -->
             <!--<link rel='stylesheet' href='/cona_config/static/src/css/bootstrap_cona/css/bootstrap-theme.min.css' t-ignore="true"/> -->
             <!--<link rel='stylesheet' href='/cona_config/static/src/css/cona.css' t-ignore="true"/>-->

@@ -89,3 +89,91 @@ ul.nav-stacked > li > a {
      top: 0px !important;
      bottom: 0px !important;
 }
+/* listenansicht Flex test */
+/*
+#products_grid .oe_product section h5 {
+    font-size: 20px;
+    order: 1;
+}
+#products_grid .product_price.text-primary {
+    color: #808080;
+    background-color: green;
+    width: 15;
+    height: -webkit-fill-available;
+}
+.oe_product .product_price {
+    !* padding: 5px 0; *!
+    position: absolute;
+    bottom: 0;
+}
+#products_grid .oe_product section {
+    background: #666666ab;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    float: left;
+    width: 100%;
+}
+
+.oe_product.oe_list .oe_product_image {
+    width: 58px;
+    height: 56px;
+}
+
+.oe_product.oe_list section {
+    left: 58px;
+}
+.oe_product.oe_list {
+    min-height: 65px;
+}*/
+/* Listenansicht Kategorie 4 ohne Flex */
+body[data-rootcatid="4"] #products_grid .oe_product section h5 {
+    font-size: 20px;
+    /*float: left;*/
+}
+body[data-rootcatid="4"] #products_grid .product_price.text-primary {
+    color: #fff;
+    background-color: #C7C7C7;
+    width: 180px;
+    height: 158px;
+}
+
+body[data-rootcatid="4"] .oe_product_cart .quick_add_to_cart {
+    position: relative;
+    bottom: 10px;
+    float: left;
+}
+body[data-rootcatid="4"] .oe_product .product_price {
+    right: 0;
+}
+body[data-rootcatid="4"] #products_grid section > div.product_price.text-primary > b > span {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+body[data-rootcatid="4"] .oe_product .oe_subdescription {
+    float: left;
+    width: 460px;
+}
+body[data-rootcatid="4"] #products_grid > div > form > div > section {
+    height: 158px;
+}
+body[data-rootcatid="4"] .oe_product_cart .quick_add_to_cart {
+    position: absolute;
+    bottom: 10px;
+    float: left;
+    right: 5%;
+}
+body[data-rootcatid="4"] .oe_product.oe_list .oe_product_image {
+    height: 158px;
+}
+body[data-rootcatid="4"] #products_grid .oe_product section {
+    background: #fff;
+}
+body[data-rootcatid="4"] #products_grid > div > form > div > section > div.product_price.text-primary > b > span {
+    font-size: 36px;
+}
+body[data-rootcatid="4"] .oe_product.oe_list:hover {
+    opacity: 80%;
+}

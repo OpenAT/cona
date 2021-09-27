@@ -4,9 +4,9 @@
 
 /* Product GRID */
 /* ------------ */
-#products_grid_before {
+/*#products_grid_before {
     display: none;
-}
+}*/
 #products_grid .oe_product section {
     background: #666666ab;
     font-size: 20px;

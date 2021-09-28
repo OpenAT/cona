@@ -2,6 +2,37 @@
 /* SHOP CATEGORY PAGES */
 /* ------------------- */
 
+/* Categories listview Responsive */
+@media (max-width: 768px) {
+    body[data-rootcatid="4"] #products_grid .oe_product.oe_list {
+        height: 490px;
+    }
+
+    body[data-rootcatid="4"] #products_grid .product_price.text-primary {
+        color: #fff;
+        background-color: #C7C7C7;
+        width: 100%;
+        height: 158px;
+    }
+
+    body[data-rootcatid="4"] #products_grid .oe_product section {
+        background: #C7C7C7;
+        height: 200px !important;
+    }
+
+    body[data-rootcatid="4"] #products_grid .oe_product .oe_product_image img {
+        height: 100%;
+        max-height: initial;
+        width: 100%;
+        max-width: initial;
+    }
+    body[data-rootcatid="4"] .oe_product_cart .quick_add_to_cart {
+    position: absolute;
+    bottom: 10px;
+    float: left;
+    right: 35%;
+}
+}
 /* Product GRID */
 /* ------------ */
 /*#products_grid_before {

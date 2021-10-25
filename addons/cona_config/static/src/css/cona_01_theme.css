@@ -16,8 +16,11 @@ body #wrapwrap footer {
 }
 
 /* reset price donate when edited */
-body .price_donate .form-control {
-    color: white;
+/* correction of new class btn_primary at the price_donate input field */
+#price_donate.btn-primary:active,
+#price_donate.btn-primary:focus,
+#price_donate.btn-primary:hover {
+  color: white;
 }
 
 /* Fonts Styling Extra Anpassung */

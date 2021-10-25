@@ -20,7 +20,12 @@ body #wrapwrap footer {
 #price_donate.btn-primary:active,
 #price_donate.btn-primary:focus,
 #price_donate.btn-primary:hover {
+  background-color: #f18e00;
   color: white;
+}
+#price_donate.btn-primary {
+    background-color: #fff;
+    color: #b1c800;
 }
 
 /* Fonts Styling Extra Anpassung */

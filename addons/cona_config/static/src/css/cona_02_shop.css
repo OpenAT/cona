@@ -26,6 +26,10 @@ body .price_donate .form-control {
     text-align: inherit;
 }
 
+/* BIC ausblenden TODO: Must be done by xml! */
+#aq2 > div:nth-child(6) {
+    display: none;
+}
 /* Add some space between donation buttons and input on small layout */
 span.price_donate_suggested_outer {
     display: inline-block;

@@ -80,6 +80,23 @@ p a, span a {
 .btn-xl {
     border-radius: 0px;
 }
+/* Checkout Page neu ENDE */
+/* Iframe Modal Box behavior */
+#wsd_checkout_form .form-group {
+  position: relative; }
+
+.modal-open .modal {
+  overflow: visible; }
+
+.modal {
+  position: absolute; }
+
+/* BODY SCROLL AFTER ADDING MODAL BEHAVIOR -- STILL NEED TESTS */
+/* Fix Backend CSS for Speichern Button */
+#website-top-edit .btn.btn-primary.btn-xs {
+  width: auto;
+}
+
 /* ------------------- */
 /* BOOTSTRAP MODAL BOX */
 /* ------------------- */

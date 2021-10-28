@@ -91,6 +91,11 @@ p a, span a {
 .modal {
   position: absolute; }
 
+.modal .modal-dialog .modal-content {
+    overflow-y: auto;
+    height: 300px;
+    max-height: calc(100vh - 150px);
+}
 /* BODY SCROLL AFTER ADDING MODAL BEHAVIOR -- STILL NEED TESTS */
 /* Fix Backend CSS for Speichern Button */
 #website-top-edit .btn.btn-primary.btn-xs {

@@ -85,16 +85,24 @@ p a, span a {
 #wsd_checkout_form .form-group {
   position: relative; }
 
+.modal-dialog {
+    display: inline-block;
+    vertical-align: middle;
+}
 .modal-open .modal {
   overflow: visible; }
 
 .modal {
   position: absolute; }
 
-.modal .modal-dialog .modal-content {
+.modal .modal-dialog .modal-body {
     overflow-y: auto;
-    height: 300px;
-    max-height: calc(100vh - 150px);
+    max-height: 300px;
+}
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: auto;
+    }
 }
 /* BODY SCROLL AFTER ADDING MODAL BEHAVIOR -- STILL NEED TESTS */
 /* Fix Backend CSS for Speichern Button */

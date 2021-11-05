@@ -95,9 +95,9 @@ p a, span a {
 .modal {
   position: absolute; }
 
-.modal .modal-dialog .modal-body {
+#website_sale_donate .modal .modal-dialog .modal-body {
     overflow-y: auto;
-    max-height: 300px;
+    max-height: 180px;
 }
 @media (min-width: 768px) {
     .modal-dialog {

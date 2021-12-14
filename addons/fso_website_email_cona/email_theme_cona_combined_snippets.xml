@@ -88,11 +88,9 @@
                                                                                                                 style="width: 350px;">
                                                                                                                 <h3>
                                                                                                                     <a href="https://www.concordia.or.at/de/spenden"
-                                                                                                                       target="_blank">
-                                                                                                                        <span style="color:#F18E00;">
+                                                                                                                       target="_blank" style="color:#F18E00; text-decoration:none;">
                                                                                                                             jetzt
                                                                                                                             spenden
-                                                                                                                        </span>
                                                                                                                     </a>
                                                                                                                 </h3>
                                                                                                             </td>
@@ -152,7 +150,7 @@
                                                                                                                 class="imageContent ckediting_enabled"
                                                                                                                 valign="top">
                                                                                                                 <img alt="Concordia Sozialprojekte Logo"
-                                                                                                                     class="flexibleImage"
+                                                                                                                     class="flexibleImage nllogo"
                                                                                                                      src="/fso_website_email_cona/static/src/img/Concordialogo.png"/>
                                                                                                             </td>
                                                                                                         </tr>
@@ -319,7 +317,8 @@
                                                                                                             <td align="left"
                                                                                                                 class="textContent ckediting_enabled"
                                                                                                                 style="text-align:left;"
-                                                                                                                valign="top">
+                                                                                                                valign="top"
+                                                                                                                line-height="1">
                                                                                                                 <p class=""
                                                                                                                    style="text-align: left;">
                                                                                                                     CONCORDIA
@@ -341,14 +340,15 @@
                                                                                                                     1
                                                                                                                     2128149
                                                                                                                     <br></br>
-                                                                                                                    office@concordia.or.at
+                                                                                                                    <a href="mailto:spendenservice@concordia.or.at" target="_blank" style="text-decoration:none;">office@concordia.or.at</a>
                                                                                                                     <br></br>
-                                                                                                                    concordia.or.at
-                                                                                                                </p><br></br>
+                                                                                                                    <a href="https://www.concordia.or.at/" target="_blank" style="text-decoration:none;">concordia.or.at</a>
+                                                                                                                </p>
+                                                                                                                <br></br>
 
                                                                                                                 <p class="cona_tiny"
                                                                                                                    style="text-align: left;">
-                                                                                                                    Datenschutzerklärung
+                                                                                                                    <a href="https://www.concordia.or.at/de/datenschutzerklaerung" target="_blank" style="text-decoration:none;">Datenschutzerklärung</a>
                                                                                                                 </p>
                                                                                                             </td>
                                                                                                         </tr>
@@ -365,7 +365,8 @@
                                                                                                             <td align="center"
                                                                                                                 class="textContent ckediting_enabled"
                                                                                                                 style="text-align:center;"
-                                                                                                                valign="top">
+                                                                                                                valign="top"
+                                                                                                                line-height="1">
                                                                                                                 <p class=""
                                                                                                                    style="text-align: center;">
                                                                                                                     Spendenkonto:
@@ -376,7 +377,8 @@
                                                                                                                     0000
                                                                                                                     1318
                                                                                                                     7893
-                                                                                                                </p><br></br>
+                                                                                                                </p>
+                                                                                                                <br></br>
 
                                                                                                                 <p class="cona_tiny"
                                                                                                                    style="text-align: center;">
@@ -384,71 +386,76 @@
                                                                                                                     kannst
                                                                                                                     Dich
                                                                                                                     jederzeit
-                                                                                                                    <a href="https://www.concordia.or.at/de/newsletter-abbestellung" target="_blank">abmelden</a>
+                                                                                                                    <a href="https://www.concordia.or.at/de/newsletter-abbestellung"
+                                                                                                                       target="_blank" style="text-decoration:none;">
+                                                                                                                        abmelden
+                                                                                                                    </a>
                                                                                                                     oder
                                                                                                                     Deine
                                                                                                                     Kontaktdaten
                                                                                                                     bearbeiten.
-                                                                                                                </p><br></br>
-                                                                                                                <tr>
-                                                                                                                    <td align="center"
-                                                                                                                        class="textContent ckediting_enabled"
-                                                                                                                        style="text-align:center; line-height: 0;"
-                                                                                                                        valign="top">
-                                                                                                                        <p class="cona_tiny mediaicons"
-                                                                                                                           style="text-align: center;">
+                                                                                                                </p>&amp;nbsp
+                                                                                                                <br></br>
+                                                                                                                <div class="cona_tiny mediaicons"
+                                                                                                                     style="text-align: center;">
 
-                                                                                                                            <a href="https://www.facebook.com/concordiasozialprojekteAT"
-                                                                                                                               target="_blank"
-                                                                                                                               style="text-decoration: none;">
-                                                                                                                                <img alt="Facebook Icon"
-                                                                                                                                     class="flexibleImage mediaicon"
-                                                                                                                                     src="/fso_website_email_cona/static/src/icons/rnb_ico_fb.png"
-                                                                                                                                     style="text-align:center; width:32px; height:32px;"
-                                                                                                                                     align="middle"
-                                                                                                                                     vspace="10"
-                                                                                                                                     hspace="10"
-                                                                                                                                     display="block"/>
-                                                                                                                            </a>&amp;nbsp;
-                                                                                                                            <a href="https://www.instagram.com/concordiasozialprojekte/"
-                                                                                                                               target="_blank"
-                                                                                                                               style="text-decoration: none;">
-                                                                                                                                <img alt="Instagram Icon"
-                                                                                                                                     class="flexibleImage mediaicon"
-                                                                                                                                     src="/fso_website_email_cona/static/src/icons/rnb_ico_ig.png"
-                                                                                                                                     style="text-align:center; width:32px; height:32px;"
-                                                                                                                                     align="middle"
-                                                                                                                                     vspace="10"
-                                                                                                                                     hspace="10"
-                                                                                                                                     display="block"/>
-                                                                                                                            </a>&amp;nbsp;
-                                                                                                                            <a href="https://www.linkedin.com/company/concordia-social-projects/"
-                                                                                                                               target="_blank"
-                                                                                                                               style="text-decoration: none;">
-                                                                                                                                <img alt="LinkedIn Icon"
-                                                                                                                                     class="flexibleImage mediaicon"
-                                                                                                                                     src="/fso_website_email_cona/static/src/icons/rnb_ico_in.png"
-                                                                                                                                     style="text-align:center; width:32px; height:32px;"
-                                                                                                                                     align="middle"
-                                                                                                                                     vspace="10"
-                                                                                                                                     hspace="10"
-                                                                                                                                     display="block"/>
-                                                                                                                            </a>&amp;nbsp;
-                                                                                                                            <a href="https://www.youtube.com/channel/UC89sqWPCbTNY5AvT2hSoINw"
-                                                                                                                               target="_blank"
-                                                                                                                               style="text-decoration: none;">
-                                                                                                                                <img alt="Youtube Icon"
-                                                                                                                                     class="flexibleImage mediaicon"
-                                                                                                                                     src="/fso_website_email_cona/static/src/icons/rnb_ico_yt.png"
-                                                                                                                                     style="text-align:center; width:32px; height:32px;"
-                                                                                                                                     align="middle"
-                                                                                                                                     vspace="10"
-                                                                                                                                     hspace="10"
-                                                                                                                                     display="block"/>
-                                                                                                                            </a>
-                                                                                                                        </p>
-                                                                                                                    </td>
-                                                                                                                </tr>
+                                                                                                                    <a href="https://www.facebook.com/concordiasozialprojekteAT"
+                                                                                                                       target="_blank"
+                                                                                                                       style="text-decoration: none;">
+                                                                                                                        <img alt="Facebook Icon"
+                                                                                                                             class="flexibleImage mediaicon"
+                                                                                                                             src="/fso_website_email_cona/static/src/icons/rnb_ico_fb.png"
+                                                                                                                             style="border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none; width:32px; height:32px;"
+                                                                                                                             width="32"
+                                                                                                                             height="32"
+                                                                                                                             text-align="left"
+                                                                                                                             vspace="10"
+                                                                                                                             hspace="5"
+                                                                                                                             display="block"/>
+                                                                                                                    </a>
+                                                                                                                    <a href="https://www.instagram.com/concordiasozialprojekte/"
+                                                                                                                       target="_blank"
+                                                                                                                       style="text-decoration: none;">
+                                                                                                                        <img alt="Instagram Icon"
+                                                                                                                             class="flexibleImage mediaicon"
+                                                                                                                             src="/fso_website_email_cona/static/src/icons/rnb_ico_ig.png"
+                                                                                                                             style="border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none; width:32px; height:32px;"
+                                                                                                                             width="32"
+                                                                                                                             height="32"
+                                                                                                                             text-align="left"
+                                                                                                                             vspace="10"
+                                                                                                                             hspace="5"
+                                                                                                                             display="block"/>
+                                                                                                                    </a>
+                                                                                                                    <a href="https://www.linkedin.com/company/concordia-social-projects/"
+                                                                                                                       target="_blank"
+                                                                                                                       style="text-decoration: none;">
+                                                                                                                        <img alt="LinkedIn Icon"
+                                                                                                                             class="flexibleImage mediaicon"
+                                                                                                                             src="/fso_website_email_cona/static/src/icons/rnb_ico_in.png"
+                                                                                                                             style="border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none; width:32px; height:32px;"
+                                                                                                                             width="32"
+                                                                                                                             height="32"
+                                                                                                                             text-align="left"
+                                                                                                                             vspace="10"
+                                                                                                                             hspace="5"
+                                                                                                                             display="block"/>
+                                                                                                                    </a>
+                                                                                                                    <a href="https://www.youtube.com/channel/UC89sqWPCbTNY5AvT2hSoINw"
+                                                                                                                       target="_blank"
+                                                                                                                       style="text-decoration: none;">
+                                                                                                                        <img alt="Youtube Icon"
+                                                                                                                             class="flexibleImage mediaicon"
+                                                                                                                             src="/fso_website_email_cona/static/src/icons/rnb_ico_yt.png"
+                                                                                                                             style="border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none; width:32px; height:32px;"
+                                                                                                                             width="32"
+                                                                                                                             height="32"
+                                                                                                                             text-align="left"
+                                                                                                                             vspace="10"
+                                                                                                                             hspace="5"
+                                                                                                                             display="block"/>
+                                                                                                                    </a>
+                                                                                                                </div>
                                                                                                             </td>
                                                                                                         </tr>
                                                                                                     </tbody>
@@ -461,22 +468,33 @@
                                                                                                        class="flexibleContainer33 flexibleContainer33right">
                                                                                                     <tbody>
                                                                                                         <tr>
-                                                                                                            <td align="right"
-                                                                                                                class="textContent ckediting_enabled"
-                                                                                                                style="text-align:right;"
-                                                                                                                valign="right">
-                                                                                                                <img alt="Spendenguetesiegel"
-                                                                                                                     class="flexibleImage siegel"
-                                                                                                                     src="/fso_website_email_cona/static/src/img/spendenguetesiegel-concordia-sozialprojekte-stiftung.png"
-                                                                                                                     style="width: 100px; float: right; padding-bottom: 8px;"
-                                                                                                                     display="block"/>
-                                                                                                                <br></br>
-                                                                                                                <img alt="Spendenabsetzbarkeit"
-                                                                                                                     class="flexibleImage siegel"
-                                                                                                                     src="/fso_website_email_cona/static/src/img/spendenabsetzbarkeit-concordia-sozialprojekte-stiftung.png"
-                                                                                                                     style="width: 100px; float: right;"
-                                                                                                                     display="block"/>
+                                                                                                            <td class="textContent ckediting_enabled"
+                                                                                                                style="text-align:center;"
+                                                                                                                valign="top"
+                                                                                                                line-height="1">
+                                                                                                                <div class="trusticons"
+                                                                                                                     style="width:100%; text-align: center;">
+                                                                                                                    <img alt="Spendenguetesiegel"
+                                                                                                                         class="flexibleImage siegel"
+                                                                                                                         src="/fso_website_email_cona/static/src/img/spendenguetesiegel-concordia-sozialprojekte-stiftung.png"
+                                                                                                                         style="width: 100px; border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;"
+                                                                                                                         text-align="center"
+                                                                                                                         width="100"
+                                                                                                                         vspace="1"
+                                                                                                                         hspace="5"
+                                                                                                                         display="inline-block"/>
+                                                                                                                    <img alt="Spendenabsetzbarkeit"
+                                                                                                                         class="flexibleImage siegel"
+                                                                                                                         src="/fso_website_email_cona/static/src/img/spendenabsetzbarkeit-concordia-sozialprojekte-stiftung.png"
+                                                                                                                         style="width: 100px; border:0 none; -ms-interpolation-mode: bicubic; text-decoration: none;"
+                                                                                                                         text-align="center"
+                                                                                                                         width="100"
+                                                                                                                         vspace="10"
+                                                                                                                         hspace="5"
+                                                                                                                         display="inline-block"/>
+                                                                                                                </div>
                                                                                                             </td>
+
                                                                                                         </tr>
                                                                                                     </tbody>
                                                                                                 </table>

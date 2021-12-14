@@ -49,7 +49,9 @@
 #combinedheadersnippet .snippet_block_text_twocol .flexibleContainerRight .flexibleImage {
     width: 200px;
 }
-#combinedsnippetfooter body, p, a, #emailBody ul li, #emailBody ol li {
+#combinedsnippetfooter body,
+#combinedsnippetfooter p,
+#combinedsnippetfooter a {
     font-size: 12px;
 }
 #combinedsnippetfooter p {

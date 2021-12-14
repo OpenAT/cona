@@ -11,6 +11,10 @@
     /*table.flexibleContainer {*/
     /*    width: 100% !important;*/
     /*}*/
+    img.flexibleImage.nllogo {
+        width: 60%;
+        margin: auto;
+    }
     #combinedheadersnippet .headerspendentextlinks {
         align: center !important;
         text-align: center !important;
@@ -28,6 +32,7 @@
     }
     #combinedsnippetfooter img.flexibleImage.siegel {
         width: 100px; !important;
+        margin: auto !important;
     }
     #combinedsnippetfooter img.mediaicon.flexibleImage {
         width: 32px !important;

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="0">
+
+        <!-- Load custom js and css -->
+        <template id="assets_frontend" inherit_id="fso_base_website.assets_frontend" name="Shop Donate">
+            <xpath expr="//link[last()]" position="after">
+                <link rel="stylesheet" href='/cona_product_themes/static/src/css/cona_inline.less'/>
+                <link rel="stylesheet" href='/cona_product_themes/static/src/css/cona_inline_test.less'/>
+
+                <link rel="stylesheet" href='/cona_product_themes/static/src/css/cona_theme_a.less'/>
+                <link rel="stylesheet" href='/cona_product_themes/static/src/css/cona_theme_b.less'/>
+                <link rel="stylesheet" href='/cona_product_themes/static/src/css/cona_theme_c.less'/>
+
+            </xpath>
+        </template>
+
+    </data>
+</openerp>

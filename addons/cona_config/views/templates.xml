@@ -70,6 +70,9 @@
             <link rel='stylesheet' href='/cona_config/static/src/css/cona_02_shop.css' t-ignore="true"/>
             <link rel='stylesheet' href='/cona_config/static/src/css/cona_02_shop_categories.css' t-ignore="true"/>
             <link rel='stylesheet' href='/cona_config/static/src/css/cona_09_glyphicons.css' t-ignore="true"/>
+            <link rel='stylesheet' href='/cona_config/static/src/css/ShopPakete.css' t-ignore="true"/>
+            <link rel='stylesheet' href='/cona_config/static/src/css/miniSpendenform.css' t-ignore="true"/>
+            <link rel='stylesheet' href='/cona_config/static/src/css/OnePageCheckout.css' t-ignore="true"/>
         </xpath>
     </template>
 <!--     <template id="cona_relauch_custom_css" inherit_id="website.layout" name="cona Relauch Custom CSS">

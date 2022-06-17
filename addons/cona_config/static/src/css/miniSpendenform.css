@@ -1,0 +1,28 @@
+
+/*Rahmen rundherum*/
+.panel-default {
+    border-color: none;
+}
+
+.panel {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/*Headline ausblenden*/
+
+h1 {display: none;
+}
+
+
+/*Button*/
+
+
+.btn-xl, .btn-group-xl > .btn {
+    border-radius: 0px;
+}
+
+a#add_to_cart {
+    font-weight: 800;
+}

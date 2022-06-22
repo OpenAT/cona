@@ -5,12 +5,12 @@
         <!-- Load custom js and css -->
         <template id="assets_frontend" inherit_id="fso_base_website.assets_frontend" name="Shop Donate">
             <xpath expr="//link[last()]" position="after">
-                <link rel="stylesheet" href='/cona_product_themes/static/src/css/cona_inline.less'/>
-                <link rel="stylesheet" href='/cona_product_themes/static/src/css/cona_inline_test.less'/>
-
-                <link rel="stylesheet" href='/cona_product_themes/static/src/css/cona_theme_a.less'/>
-                <link rel="stylesheet" href='/cona_product_themes/static/src/css/cona_theme_b.less'/>
-                <link rel="stylesheet" href='/cona_product_themes/static/src/css/cona_theme_c.less'/>
+                <link rel="stylesheet" href='/cona_product_themes/static/src/css/cona_inline.css'/>
+                <link rel="stylesheet" href='/cona_product_themes/static/src/css/cona_inline_test.css'/>
+git
+                <link rel="stylesheet" href='/cona_product_themes/static/src/css/cona_theme_a.css'/>
+                <link rel="stylesheet" href='/cona_product_themes/static/src/css/cona_theme_b.css'/>
+                <link rel="stylesheet" href='/cona_product_themes/static/src/css/cona_theme_c.css'/>
 
             </xpath>
         </template>

@@ -1,0 +1,5 @@
+/* concordia product theme */
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #add_to_cart {
+  background-color: black;
+  color: pink;
+}

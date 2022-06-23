@@ -40,43 +40,43 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .price_donate_suggested_outer {
   /* Donation Buttons*/
   /* Arbitrary Price Input*/
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .btn {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .price_donate_suggested_outer .btn {
   border: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .btn-default {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .price_donate_suggested_outer .btn-default {
   background: none;
-  background-color: rgba(241, 142, 0, 0.482);
+  background-color: #f18e00;
   -webkit-box-shadow: none;
   box-shadow: none;
   border-color: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .btn-primary,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .btn-primary:active,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .btn-primary:focus,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .btn-primary:hover,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price btn-primary > a:visited {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .price_donate_suggested_outer .btn-primary,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .price_donate_suggested_outer .btn-primary:active,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .price_donate_suggested_outer .btn-primary:focus,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .price_donate_suggested_outer .btn-primary:hover,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .price_donate_suggested_outer btn-primary > a:visited {
   background: none;
-  background-color: #f18e00;
+  background-color: #f37021;
   border-color: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group .form-control {
-  background-color: rgba(241, 142, 0, 0.482);
-}
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group .input-group-addon {
-  background: none;
-  background-color: rgba(241, 142, 0, 0.482);
-}
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group .input-group-addon:active,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group .input-group-addon:focus {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .price_donate_suggested_outer .form_group .form-control {
   background-color: #f18e00;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .price_donate_suggested_outer .form_group .input-group-addon {
+  background: none;
+  background-color: #f18e00;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .price_donate_suggested_outer .form_group .input-group-addon:active,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .price_donate_suggested_outer .form_group .input-group-addon:focus {
+  background-color: #f37021;
   color: #ffffff;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group #price_donate:active,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group #price_donate:focus {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .price_donate_suggested_outer .form_group #price_donate:active,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .price_donate_suggested_outer .form_group #price_donate:focus {
   background-color: #f18e00;
   color: #ffffff;
   -webkit-box-shadow: none;

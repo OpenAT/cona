@@ -1,34 +1,16 @@
 /* concordia product theme */
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) {
+  /*Zurueckbutton ausgeblendet*/
   /*Rahmen rundherum*/
   /*Headline ausblenden*/
   /*Spenden-Button*/
   /*Spendenbeträge*/
-  /*
-input .btn-default {
-  background-color:#f18d0038;
-}
-
-input .btn-default:active {
-  background-color:#f18e00;
-}
-
-
-.ppt_opc .price_donate_suggested {
-  min-width: 70px;
-  width: 130px;
-  border: none;
-  font-size: 30px;
-}
-
-.price_donate_suggested_currency {
-  font-size: 12px;
-}
-
-*/
   /*Info Symbol*/
   /*Pflichtfelder Textfarbe*/
   /*Form-Eintragungsfeld*/
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #wsd_checkout_steps_nav {
+  display: none;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .panel-default {
   border-color: none;
@@ -64,6 +46,21 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn {
   border: none;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) input .btn-default {
+  background-color: #f18d0038;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) input .btn-default:active {
+  background-color: #f18e00;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .ppt_opc .price_donate_suggested {
+  min-width: 70px;
+  width: 130px;
+  border: none;
+  font-size: 30px;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .price_donate_suggested_currency {
+  font-size: 12px;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .glyphicon-info-sign {
   color: orange;

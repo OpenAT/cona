@@ -1,5 +1,108 @@
 /* concordia product theme */
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) {
+  /*Rahmen rundherum*/
+  /*Headline ausblenden*/
+  /*Spenden-Button*/
+  /*Spendenbeträge*/
+  /*
+input .btn-default {
+  background-color:#f18d0038;
+}
+
+input .btn-default:active {
+  background-color:#f18e00;
+}
+
+
+.ppt_opc .price_donate_suggested {
+  min-width: 70px;
+  width: 130px;
+  border: none;
+  font-size: 30px;
+}
+
+.price_donate_suggested_currency {
+  font-size: 12px;
+}
+
+*/
+  /*Info Symbol*/
+  /*Pflichtfelder Textfarbe*/
+  /*Form-Eintragungsfeld*/
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .panel-default {
+  border-color: none;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .panel {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) h1 {
+  display: none;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) h3 {
+  display: none;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn-xl {
+  border-radius: 0px;
+}
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #add_to_cart {
-  background-color: black;
-  color: pink;
+  border-radius: 0px;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) a#add_to_cart {
+  font-weight: 800;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn-primary {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn-default {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: none;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn {
+  border: none;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .glyphicon-info-sign {
+  color: orange;
+  background-color: none;
+  border-color: none;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .glyphicon {
+  font-size: 15px;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .text-danger {
+  color: #808080;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #wsd_checkout_form label.control-label.mandatory.text-danger {
+  color: #808080;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success .help-block,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success .control-label,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success .radio,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success .checkbox,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success .radio-inline,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success .checkbox-inline,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success.radio label,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success.checkbox label,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success.radio-inline label,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success.checkbox-inline label {
+  color: #808080;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success .form-control {
+  border-color: #cccccc;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success .form-control-feedback {
+  color: #b1c800;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .form-control:focus {
+  border-color: #b1c800;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) input:-internal-autofill-selected {
+  background-color: -internal-light-dark(#f6fee8, rgba(106, 126, 70, 0.4)) !important;
 }

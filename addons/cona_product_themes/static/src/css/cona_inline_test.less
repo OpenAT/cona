@@ -7,7 +7,26 @@
 
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) {
 
-/*Zurueckbutton ausgeblendet*/
+/*Containerabstand*/
+
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+
+    .col-md-12 {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+
+}
+
+
+  /*Zurueckbutton ausgeblendet*/
 
 #wsd_checkout_steps_nav {
   display: none;
@@ -136,7 +155,7 @@ a#add_to_cart {
   border-top: 0px solid white;
 }
 
-td[name="product_info"] {
+a[name="product_name"] {
   display: none;
 }
 
@@ -144,7 +163,7 @@ td[name="product_info"] {
   display: none;
 }
 
-td[name="product_payment_interval"] {
+td .div[name="product_payment_interval"] {
   display: none;
 }
 

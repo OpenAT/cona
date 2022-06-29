@@ -130,19 +130,21 @@ a#add_to_cart {
   background-color: transparent;
 }
 
-.text-muted {
-  display: none;
-}
+
 
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
   border-top: 0px solid white;
+}
+
+td[name="product_info"] {
+  display: none;
 }
 
 .js_quantity {
   display: none;
 }
 
-div .pull-right {
+td[name="product_payment_interval"] {
   display: none;
 }
 
@@ -159,7 +161,11 @@ div .pull-right {
 }
 
 .oe_currency_value::before {
-  content: "Spendenbetrag:"; 
+  content: "Spendenbetrag: "; 
+}
+
+thead {
+  display: none;
 }
 
 /*Info Symbol*/

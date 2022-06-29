@@ -53,6 +53,7 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
     }
 */
   /*Info Symbol*/
+  /*Textbereich in Formular*/
   /*Pflichtfelder Textfarbe*/
   /*Form-Eintragungsfeld*/
 }
@@ -102,15 +103,22 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .glyphicon-info-sign {
   color: orange;
-  background-color: none;
-  border-color: none;
+  background-color: white;
+  border-color: white;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .glyphicon-info-sign:hover {
   color: orange;
-  background-color: none;
-  border-color: none;
+  background-color: white;
+  border-color: white;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .glyphicon {
+  font-size: 15px;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .fsoforms_field_snippet .row {
+  margin-left: 0px;
+  margin-top: -15px;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .fsoforms_field_snippet .row p {
   font-size: 15px;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .text-danger {

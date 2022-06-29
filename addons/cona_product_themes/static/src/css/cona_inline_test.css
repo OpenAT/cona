@@ -52,6 +52,7 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
       }
     }
 */
+  /*Warenkorb*/
   /*Info Symbol*/
   /*Textbereich in Formular*/
   /*Pflichtfelder Textfarbe*/
@@ -73,6 +74,9 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) h3 {
   display: none;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn {
+  border: none;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn-xl {
   border-radius: 0px;
@@ -101,6 +105,38 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .price_donate_suggested_currency {
   font-size: 12px;
 }
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: transparent;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .text-muted {
+  display: none;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .table > thead > tr > th,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .table > tbody > tr > th,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .table > tfoot > tr > th,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .table > thead > tr > td,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .table > tbody > tr > td,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .table > tfoot > tr > td {
+  border-top: 0px solid white;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .js_quantity {
+  display: none;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) div .pull-right {
+  display: none;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .remove_product {
+  display: none;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #cart_total {
+  display: none;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .oe_currency_value {
+  font-weight: 800;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .oe_currency_value::before {
+  content: "Spendenbetrag:";
+}
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .glyphicon-info-sign {
   color: orange;
   background-color: white;
@@ -117,8 +153,6 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .fsoforms_field_snippet .row {
   margin-left: 0px;
   margin-top: -15px;
-}
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .fsoforms_field_snippet .row p {
   font-size: 15px;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .text-danger {

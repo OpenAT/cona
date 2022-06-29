@@ -36,6 +36,10 @@ h3 {
 
 /*Spenden-Button*/
 
+.btn {
+  border: none;
+}
+
 .btn-xl {
   border-radius: 0px;
 }
@@ -120,7 +124,43 @@ a#add_to_cart {
   font-size: 12px;
 }
 
+/*Warenkorb*/
 
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: transparent;
+}
+
+.text-muted {
+  display: none;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+  border-top: 0px solid white;
+}
+
+.js_quantity {
+  display: none;
+}
+
+div .pull-right {
+  display: none;
+}
+
+.remove_product {
+  display: none;
+}
+
+#cart_total {
+  display: none;
+}
+
+.oe_currency_value {
+  font-weight: 800;
+}
+
+.oe_currency_value::before {
+  content: "Spendenbetrag:"; 
+}
 
 /*Info Symbol*/
 
@@ -145,11 +185,7 @@ a#add_to_cart {
 .fsoforms_field_snippet .row {
   margin-left: 0px;
   margin-top: -15px;
-
-  p {
-    font-size: 15px;
-  }
-
+  font-size: 15px;
 }
 
 /*Pflichtfelder Textfarbe*/

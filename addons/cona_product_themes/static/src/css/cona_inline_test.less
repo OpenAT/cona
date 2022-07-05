@@ -126,27 +126,28 @@ a#add_to_cart {
     }
 */
 
+.price_donate_suggested_outer {
+  .btn-default:active:hover, 
+  .btn-default .active:hover, 
+  .open > .dropdown-toggle.btn-default:hover, 
+  .btn-default:active:focus, 
+  .btn-default.active:focus, 
+  .open > .dropdown-toggle.btn-default:focus, 
+  .btn-default:active.focus, 
+  .btn-default.active.focus, 
+  .open > .dropdown-toggle.btn-default.focus {
+    background-color: rgb(241,142,0);
+    color: white;
+    border: none;
+    outline: none;
+  }
 
-.btn-default:active:hover, 
-.btn-default .active:hover, 
-.open > .dropdown-toggle.btn-default:hover, 
-.btn-default:active:focus, 
-.btn-default.active:focus, 
-.open > .dropdown-toggle.btn-default:focus, 
-.btn-default:active.focus, 
-.btn-default.active.focus, 
-.open > .dropdown-toggle.btn-default.focus {
-  background-color: rgb(241,142,0);
-  color: white;
-  border: none;
-  outline: none;
-}
-
-.btn-primary #price_donate ,
-.btn-default #price_donate ,  
-.open > .dropdown-toggle .btn-default #price_donate {
+  .btn-primary,
+  .btn-default,  
+  .open > .dropdown-toggle .btn-default {
     background-color: rgb(243,122,33);
     color: white;
+  }
 }
 
 .price_donate_suggested_currency {

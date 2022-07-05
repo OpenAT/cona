@@ -154,7 +154,8 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #price_donate.btn-primary:active,
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #price_donate.btn-primary:focus,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #price_donate.btn-primary:hover {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #price_donate.btn-primary:hover,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #price_donate.btn-primary:focus-visible {
   background-color: #f18e00;
   color: white;
   border: none;

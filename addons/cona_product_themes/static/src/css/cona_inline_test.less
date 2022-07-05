@@ -126,17 +126,25 @@ a#add_to_cart {
     }
 */
 
-#price_donate.btn-primary:active,
-#price_donate.btn-primary:focus,
-#price_donate.btn-primary:hover,
-#price_donate.btn-primary:focus-visible {
+
+.btn-default:active:hover, 
+.btn-default.active:hover, 
+.open > .dropdown-toggle.btn-default:hover, 
+.btn-default:active:focus, 
+.btn-default.active:focus, 
+.open > .dropdown-toggle.btn-default:focus, 
+.btn-default:active.focus, 
+.btn-default.active.focus, 
+.open > .dropdown-toggle.btn-default.focus {
   background-color: rgb(241,142,0);
   color: white;
   border: none;
   outline: none;
 }
 
-#price_donate.btn-primary {
+#price_donate.btn-primary,
+#price_donate.btn-default,  
+#price_donate.open > .dropdown-toggle.btn-default {
     background-color: rgb(243,122,33);
     color: white;
 }
@@ -151,6 +159,7 @@ a#add_to_cart {
   border: none;
   background-color: rgba(241,142,33,0.1);
   color: rgb(60,60,60);
+  box-shadow: none;
 }
 
 

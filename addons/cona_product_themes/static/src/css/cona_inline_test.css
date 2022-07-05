@@ -153,16 +153,23 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #price_donate.btn-primary:active,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #price_donate.btn-primary:focus,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #price_donate.btn-primary:hover,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #price_donate.btn-primary:focus-visible {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn-default:active:hover,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn-default.active:hover,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .open > .dropdown-toggle.btn-default:hover,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn-default:active:focus,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn-default.active:focus,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .open > .dropdown-toggle.btn-default:focus,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn-default:active.focus,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn-default.active.focus,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .open > .dropdown-toggle.btn-default.focus {
   background-color: #f18e00;
   color: white;
   border: none;
   outline: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #price_donate.btn-primary {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #price_donate.btn-primary,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #price_donate.btn-default,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #price_donate.open > .dropdown-toggle.btn-default {
   background-color: #f37a21;
   color: white;
 }
@@ -175,6 +182,7 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
   border: none;
   background-color: rgba(241, 142, 33, 0.1);
   color: #3c3c3c;
+  box-shadow: none;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .input-group .form-control:first-child,
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .input-group-addon:first-child,

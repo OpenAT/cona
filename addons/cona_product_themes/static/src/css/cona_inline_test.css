@@ -5,61 +5,17 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
   /*Rahmen rundherum*/
   /*Headline ausblenden*/
   /*Spenden-Button*/
-  /*Spendenbeträge
-
-
-    * Product Price Buttons and Input*
-    .price_donate_suggested_outer {
-
-      * Donation Buttons*
-      .btn {
-        border: none; 
-      }
-      .btn-default {
-        background: none;
-        background-color: rgb(241, 142, 0);
-        -webkit-box-shadow: none;
-        box-shadow: none;
-        border-color: none;
-      }
-      .btn-primary, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, btn-primary>a:visited {
-        background: none;
-        background-color: rgb(243, 112, 33);
-        border-color: none;
-      }
-
-      * Arbitrary Price Input*
-      .form_group {
-        .form-control {
-          background-color: rgb(241, 142, 0);
-        }
-        .input-group-addon {
-          background: none;
-          background-color: rgb(241, 142, 0);
-        }
-
-        .input-group-addon:active, .input-group-addon:focus {
-          background-color: rgb(243, 112, 33);
-          color: rgb(255, 255, 255);
-        }
-
-        #price_donate:active, #price_donate:focus {
-          background-color: rgb(241, 142, 0);
-          color: rgb(255, 255, 255);
-          -webkit-box-shadow: none;
-          box-shadow: none;
-
-        }
-      }
-    }
-*/
+  /*Spendenbetraege*/
   /*Ihr Betrag*/
   /*Warenkorb*/
   /*Info Symbol*/
   /*Textbereich in Formular*/
   /*Pflichtfelder Textfarbe*/
   /*Form-Eintragungsfeld*/
-  /*Seite 3*/
+  /*Zahlungsarten*/
+  /*Letzter Spendenbutton*/
+  /*Rechnungsanschrift Seite 3*/
+  /*Warenkorbansicht mobil*/
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container {
   padding-right: 0px;
@@ -299,6 +255,34 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) input:-internal-autofill-selected {
   background-color: -internal-light-dark(#f6fee8, rgba(106, 126, 70, 0.4)) !important;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) div[name="payment_billing_address"] {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #payment_method .nav.nav-tabs li.active a:hover {
+  background-color: #fdc578;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #payment_method .nav.nav-tabs li.active a {
+  background-color: #fdc578;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #payment_method .nav.nav-tabs a.focus,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #payment_method .nav.nav-tabs a.focus-visible,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #payment_method .nav.nav-tabs a.hover {
+  outline: 0;
+  outline-offset: 0;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) div.payment_billing_address {
   display: none;
+}
+@media (max-width: 500px) {
+  body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .oe_cart table td:last-child,
+  body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .oe_cart table td:nth-last-child(2),
+  body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #modal_optional_products table td:last-child,
+  body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #modal_optional_products table td:nth-last-child(2) {
+    width: 100% !important;
+  }
+}
+@media (max-width: 400px) {
+  body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .oe_cart table td:last-child,
+  body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .oe_cart table td:nth-last-child(2),
+  body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #modal_optional_products table td:last-child,
+  body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #modal_optional_products table td:nth-last-child(2) {
+    width: 100% !important;
+  }
 }

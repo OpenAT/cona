@@ -83,55 +83,7 @@ a.btn-primary {
   font-size: 1.5rem;
 }
 
-/*Spendenbeträge
-
-
-    * Product Price Buttons and Input*
-    .price_donate_suggested_outer {
-
-      * Donation Buttons*
-      .btn {
-        border: none; 
-      }
-      .btn-default {
-        background: none;
-        background-color: rgb(241, 142, 0);
-        -webkit-box-shadow: none;
-        box-shadow: none;
-        border-color: none;
-      }
-      .btn-primary, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, btn-primary>a:visited {
-        background: none;
-        background-color: rgb(243, 112, 33);
-        border-color: none;
-      }
-
-      * Arbitrary Price Input*
-      .form_group {
-        .form-control {
-          background-color: rgb(241, 142, 0);
-        }
-        .input-group-addon {
-          background: none;
-          background-color: rgb(241, 142, 0);
-        }
-
-        .input-group-addon:active, .input-group-addon:focus {
-          background-color: rgb(243, 112, 33);
-          color: rgb(255, 255, 255);
-        }
-
-        #price_donate:active, #price_donate:focus {
-          background-color: rgb(241, 142, 0);
-          color: rgb(255, 255, 255);
-          -webkit-box-shadow: none;
-          box-shadow: none;
-
-        }
-      }
-    }
-*/
-
+/*Spendenbetraege*/
 
   .btn-default:active:hover, 
   .btn-default.active:hover, 
@@ -169,7 +121,6 @@ a.btn-primary {
   color: rgb(60,60,60);
   box-shadow: none;
 }
-
 
 .input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child > .btn, .input-group-btn:first-child > .btn-group > .btn, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
   display: none;
@@ -298,10 +249,45 @@ input:-internal-autofill-selected {
 
 }
 
-/*Seite 3*/
+/*Zahlungsarten*/
 
-div[name="payment_billing_address"] {
+#payment_method .nav.nav-tabs li.active a:hover {
+  background-color: rgb(253,197,120);
+}
+
+#payment_method .nav.nav-tabs li.active a {
+  background-color: rgb(253,197,120);
+}
+
+#payment_method .nav.nav-tabs a.focus, 
+#payment_method .nav.nav-tabs a.focus-visible,
+#payment_method .nav.nav-tabs a.hover {
+  outline: 0;
+  outline-offset: 0;
+
+}
+
+/*Letzter Spendenbutton*/
+
+
+/*Rechnungsanschrift Seite 3*/
+
+div.payment_billing_address {
   display: none;
 }
+
+/*Warenkorbansicht mobil*/
+
+@media (max-width: 500px) {
+  .oe_cart table td:last-child, .oe_cart table td:nth-last-child(2), #modal_optional_products table td:last-child, #modal_optional_products table td:nth-last-child(2) {
+      width: 100% !important;
+    }
+  }
+
+@media (max-width: 400px) {
+  .oe_cart table td:last-child, .oe_cart table td:nth-last-child(2), #modal_optional_products table td:last-child, #modal_optional_products table td:nth-last-child(2) {
+      width: 100% !important;
+    } 
+  } 
 
 }

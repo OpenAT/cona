@@ -12,6 +12,7 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
   /*Textbereich in Formular*/
   /*Pflichtfelder Textfarbe*/
   /*Form-Eintragungsfeld*/
+  /*Abstand Spendenbetrag und Zahlungsarten*/
   /*Zahlungsarten*/
   /*Letzter Spendenbutton*/
   /*Rechnungsanschrift Seite 3*/
@@ -112,7 +113,7 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) a.btn-primary {
   background-color: #f28e21 !important;
   color: white;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn-default:active:hover,
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn-default.active:hover,
@@ -255,6 +256,11 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) input:-internal-autofill-selected {
   background-color: -internal-light-dark(#f6fee8, rgba(106, 126, 70, 0.4)) !important;
 }
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) td [name="product_remove"] {
+  margin: 0;
+  padding: 0;
+  height: 0;
+}
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #payment_method .nav.nav-tabs li.active a:hover {
   background-color: #fdc578;
 }
@@ -266,6 +272,15 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #payment_method .nav.nav-tabs a.hover {
   outline: 0;
   outline-offset: 0;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .nav-tabs > li.active > a,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .nav-tabs > li.active > a:hover,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .nav-tabs > li.active > a:focus {
+  border: 0px;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) a#button_pay_now span {
+  font-size: 2rem;
+  font-weight: 800;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) div.payment_billing_address {
   display: none;

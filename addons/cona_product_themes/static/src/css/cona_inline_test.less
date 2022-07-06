@@ -80,7 +80,7 @@ a#add_to_cart {
 a.btn-primary {
   background-color: rgb(242,142,33) !important;
   color: white;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 /*Spendenbetraege*/
@@ -249,6 +249,15 @@ input:-internal-autofill-selected {
 
 }
 
+
+/*Abstand Spendenbetrag und Zahlungsarten*/
+
+td [name="product_remove"] {
+  margin: 0;
+  padding: 0;
+  height: 0;
+}
+
 /*Zahlungsarten*/
 
 #payment_method .nav.nav-tabs li.active a:hover {
@@ -267,8 +276,17 @@ input:-internal-autofill-selected {
 
 }
 
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  border: 0px;
+}
+
+
 /*Letzter Spendenbutton*/
 
+a#button_pay_now span {
+  font-size: 2rem;
+  font-weight: 800;
+}
 
 /*Rechnungsanschrift Seite 3*/
 

@@ -85,6 +85,79 @@ a.btn-primary {
 
 /*Spendenbetraege*/
 
+
+.btn:focus,
+.btn:active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: 0 auto transparent;
+    outline-color: transparent;
+    outline-style: auto;
+    outline-width: 0;
+    outline-offset: 0;
+}
+
+
+    // Product Price Buttons and Input
+    .product_price {
+
+      // Donation Buttons
+      .btn {
+        border-radius: 0px;
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .btn-default {
+        background: none;
+        background-color: rgba(252,175,23,0.4);
+      }
+      .btn-primary, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, btn-primary>a:visited {
+        background: none;
+        background-color: rgb(252,175,23);
+        border-color: none;
+      }
+
+      
+      // Arbitrary Price Input and Add-To-Cart Button
+      .arbitrary_price_form_group {
+        .form-control {
+          border: none;
+          border-radius: 0px;
+          font-size: 24px;
+          font-weight: bold;
+          height: 50px;
+          text-align: center;
+          color: #505050;
+          background-color: rgba(252,175,23,0.4);
+        }
+        .input-group-addon {
+          background: none;
+          background-color: rgba(252,175,23,0.4);
+          border-radius: 0px;
+          border: none;
+        }
+
+        .input-group-addon:active, .input-group-addon:focus {
+          background-color: rgb(252,175,23);
+          color: rgb(255, 255, 255);
+        }
+
+        #price_donate:active, #price_donate:focus {
+          background-color: rgb(252,175,23);
+          color: rgb(255, 255, 255);
+          -webkit-box-shadow: none;
+          box-shadow: none;
+
+        }
+      }
+    }
+
+
+
+ /* stummschalten
+
   .btn-default:active:hover, 
   .btn-default.active:hover, 
   .open > .dropdown-toggle.btn-default:hover, 
@@ -108,12 +181,13 @@ a.btn-primary {
     color: rgb(60,60,60);
   }
 
+*/
 
 .price_donate_suggested_currency {
   font-size: 12px;
 }
 
-/*Ihr Betrag*/
+/*Ihr Betrag stumm geschaltet
 
 .input-group-addon:not(:first-child):not(:last-child), .input-group-btn:not(:first-child):not(:last-child), .input-group .form-control:not(:first-child):not(:last-child) {
   border: none;
@@ -137,6 +211,8 @@ a.btn-primary {
 .price_donate, #description_sale {
   padding: 0;
 }
+
+*/
 
 /*Warenkorb*/
 

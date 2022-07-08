@@ -6,12 +6,15 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
   /*Headline ausblenden*/
   /*Spenden-Button*/
   /*Spendenbetraege*/
+  /*Spenden-Intervall*/
   /*Warenkorb*/
+  /*Formfelder Abstand*/
   /*Info Symbol*/
   /*Textbereich in Formular*/
   /*Pflichtfelder Textfarbe*/
   /*Form-Eintragungsfeld*/
   /*Abstand Spendenbetrag und Zahlungsarten*/
+  /*Weiterbutton bei Form-Felder*/
   /*Zahlungsarten*/
   /*Letzter Spendenbutton*/
   /*Rechnungsanschrift Seite 3*/
@@ -192,6 +195,23 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .price_donate_suggested_currency {
   font-size: 12px;
 }
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #payment_intervals hr {
+  display: none;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .payment_interval_info h4 small,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .payment_interval_info .h4 small,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .payment_interval_info h5 small,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .payment_interval_info .h5 small,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .payment_interval_info h6 small,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .payment_interval_info .h6 small,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .payment_interval_info h4 .small,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .payment_interval_info .h4 .small,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .payment_interval_info h5 .small,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .payment_interval_info .h5 .small,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .payment_interval_info h6 .small,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .payment_interval_info .h6 .small {
+  font-size: 15px;
+}
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .table-striped > tbody > tr:nth-of-type(odd) {
   background-color: transparent;
 }
@@ -230,6 +250,9 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) td .text-right[name="product_price_quantity"] {
   width: 100% !important;
 }
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #wsd_checkout_form .form-group {
+  margin-left: -10px;
+}
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .glyphicon-info-sign {
   color: orange;
   background-color: white;
@@ -244,7 +267,7 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
   font-size: 15px;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .fsoforms_field_snippet .row {
-  margin-left: 0px;
+  margin-left: -10px;
   margin-top: -15px;
   font-size: 15px;
 }
@@ -281,10 +304,13 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) input:-internal-autofill-selected {
   background-color: -internal-light-dark(#f6fee8, rgba(106, 126, 70, 0.4)) !important;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) td [name="product_remove"] {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) td[name="product_remove"] {
   margin: 0;
   padding: 0;
   height: 0;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) a.btn-primary span .wsd_checkout_form_submit_button_text {
+  font-size: 18px;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #payment_method .nav.nav-tabs li.active a:hover {
   background-color: #fdc578;

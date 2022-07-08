@@ -31,14 +31,14 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
 }
 
 
-  /*Zurueckbutton ausgeblendet*/
+/*Zurueckbutton ausgeblendet*/
 
 #wsd_checkout_steps_nav {
   display: none;
 }
 
 
-  /*Rahmen rundherum*/
+/*Rahmen rundherum*/
 .panel-default {
   border-color: none;
 }
@@ -183,6 +183,17 @@ a.btn-primary {
   font-size: 12px;
 }
 
+/*Spenden-Intervall*/
+
+#payment_intervals hr {
+  display: none;
+}
+
+.payment_interval_info {
+  h4 small, .h4 small, h5 small, .h5 small, h6 small, .h6 small, h4 .small, .h4 .small, h5 .small, .h5 .small, h6 .small, .h6 .small {
+    font-size: 15px;
+  }
+}
 
 /*Warenkorb*/
 
@@ -232,6 +243,14 @@ td .text-right[name="product_price_quantity"] {
   width: 100% !important;
 }
 
+/*Formfelder Abstand*/
+
+#wsd_checkout_form .form-group {
+  margin-left: -10px;
+}
+
+
+
 /*Info Symbol*/
 
 .glyphicon-info-sign {
@@ -250,10 +269,11 @@ td .text-right[name="product_price_quantity"] {
   font-size: 15px;
 }
 
+
 /*Textbereich in Formular*/
 
 .fsoforms_field_snippet .row {
-  margin-left: 0px;
+  margin-left: -10px;
   margin-top: -15px;
   font-size: 15px;
 }
@@ -298,10 +318,17 @@ input:-internal-autofill-selected {
 
 /*Abstand Spendenbetrag und Zahlungsarten*/
 
-td [name="product_remove"] {
+td[name="product_remove"] {
   margin: 0;
   padding: 0;
   height: 0;
+}
+
+
+/*Weiterbutton bei Form-Felder*/
+
+a.btn-primary span .wsd_checkout_form_submit_button_text {
+  font-size: 18px;
 }
 
 /*Zahlungsarten*/

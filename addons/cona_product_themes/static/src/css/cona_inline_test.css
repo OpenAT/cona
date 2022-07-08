@@ -299,7 +299,7 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
   height: 0;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) a.btn-primary .wsd_checkout_form_submit_button_text {
-  font-size: 15px;
+  font-size: 18px;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) a.btn-primary .wsd_checkout_form_submit_button_icon {
   font-size: 15px;

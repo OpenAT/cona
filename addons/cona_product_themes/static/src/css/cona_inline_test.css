@@ -298,7 +298,7 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
   padding: 0;
   height: 0;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) a.btn-primary span.wsd_checkout_form_submit_button_text {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) a.btn-primary .wsd_checkout_form_submit_button_text {
   font-size: 18px;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #payment_method .nav.nav-tabs li.active a:hover {

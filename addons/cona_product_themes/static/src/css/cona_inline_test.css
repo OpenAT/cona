@@ -332,18 +332,18 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
   width: auto;
   height: 30px;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .tab-acquirer-image span {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .tab-acquirer-name span {
   font-size: 16px;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) form .payment_opc_acquirer_form {
-  margin-left: -10px;
-  margin-right: -10px;
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) div#payment_method.row.js_payment.wsd_opc_payment {
+  margin-left: -5px;
+  margin-right: -5px;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) form .payment_opc_acquirer_form .form-group {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) div#payment_method.row.js_payment.wsd_opc_payment .form-group {
   padding-left: 0;
   padding-right: 0;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) form .payment_opc_acquirer_form .form-group .form-control {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) div#payment_method.row.js_payment.wsd_opc_payment .form-group .form-control {
   box-shadow: none;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #payment_method .acquirer_pre_msg p {

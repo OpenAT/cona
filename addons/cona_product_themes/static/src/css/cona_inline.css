@@ -1,5 +1,5 @@
 /* concordia product theme - for One Page Checkout*/
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) {
   /*Containerabstand*/
   /*Zurueckbutton ausgeblendet*/
   /*Rahmen rundherum*/
@@ -21,150 +21,150 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
   /*Rechnungsanschrift Seite 3*/
   /*Warenkorbansicht mobil*/
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container {
   padding-right: 0px;
   padding-left: 0px;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row {
   margin-left: 0px;
   margin-right: 0px;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-xs-1,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-sm-1,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-md-1,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-lg-1,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-xs-2,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-sm-2,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-md-2,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-lg-2,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-xs-3,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-sm-3,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-md-3,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-lg-3,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-xs-4,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-sm-4,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-md-4,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-lg-4,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-xs-5,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-sm-5,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-md-5,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-lg-5,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-xs-6,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-sm-6,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-md-6,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-lg-6,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-xs-7,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-sm-7,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-md-7,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-lg-7,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-xs-8,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-sm-8,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-md-8,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-lg-8,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-xs-9,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-sm-9,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-md-9,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-lg-9,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-xs-10,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-sm-10,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-md-10,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-lg-10,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-xs-11,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-sm-11,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-md-11,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-lg-11,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-xs-12,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-sm-12,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-md-12,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .col-lg-12 {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-xs-1,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-sm-1,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-md-1,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-lg-1,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-xs-2,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-sm-2,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-md-2,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-lg-2,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-xs-3,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-sm-3,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-md-3,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-lg-3,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-xs-4,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-sm-4,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-md-4,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-lg-4,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-xs-5,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-sm-5,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-md-5,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-lg-5,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-xs-6,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-sm-6,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-md-6,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-lg-6,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-xs-7,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-sm-7,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-md-7,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-lg-7,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-xs-8,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-sm-8,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-md-8,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-lg-8,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-xs-9,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-sm-9,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-md-9,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-lg-9,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-xs-10,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-sm-10,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-md-10,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-lg-10,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-xs-11,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-sm-11,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-md-11,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-lg-11,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-xs-12,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-sm-12,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-md-12,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .col-lg-12 {
   padding-left: 5px;
   padding-right: 5px;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .container .row .panel-body {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container .row .panel-body {
   padding: 0;
   margin-left: -10px;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #wsd_checkout_steps_nav {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #wsd_checkout_steps_nav {
   display: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .panel-default {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .panel-default {
   border-color: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .panel {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .panel {
   border: none;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) h1 {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) h1 {
   display: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) h3 {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) h3 {
   display: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .btn {
   border: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn-xl {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .btn-xl {
   border-radius: 0px;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #add_to_cart {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #add_to_cart {
   border-radius: 0px;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) a#add_to_cart {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) a#add_to_cart {
   font-weight: 800;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn-primary {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .btn-primary {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) a.btn-primary {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) a.btn-primary {
   background-color: #f28e21 !important;
   color: white;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) a.btn-primary span {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) a.btn-primary span {
   font-size: 2.5rem;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .form-group {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .form-group {
   margin-bottom: 10px;
   padding-left: 5px;
   padding-right: 5px;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn:focus,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn:active:focus,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn.focus,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn:active.focus,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn.active.focus {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .btn:focus,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .btn:active:focus,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .btn.focus,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .btn:active.focus,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .btn.active.focus {
   outline: 0 auto transparent;
   outline-color: transparent;
   outline-style: auto;
   outline-width: 0;
   outline-offset: 0;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .btn {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .product_price .btn {
   border-radius: 0px;
   font-size: 24px;
   font-weight: bold;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .btn-default {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .product_price .btn-default {
   background: none;
   background-color: #EFEFEF;
   color: #323232;
   box-shadow: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .btn-default:active {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .product_price .btn-default:active {
   box-shadow: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .btn-primary,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .btn-primary:active,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .btn-primary:focus,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .btn-primary:hover,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price btn-primary > a:visited {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .product_price .btn-primary,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .product_price .btn-primary:active,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .product_price .btn-primary:focus,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .product_price .btn-primary:hover,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .product_price btn-primary > a:visited {
   background: none;
   background-color: #b1c800;
   border-color: none;
   box-shadow: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group .form-control {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group .form-control {
   border: none;
   border-radius: 0px;
   font-size: 24px;
@@ -175,181 +175,181 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
   background-color: #EFEFEF;
   box-shadow: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group .input-group-addon {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group .input-group-addon {
   background: none;
   background-color: #EFEFEF;
   border-radius: 0px;
   border: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group .input-group-addon:active,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group .input-group-addon:focus {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group .input-group-addon:active,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group .input-group-addon:focus {
   background-color: #b1c800;
   color: #ffffff;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group #price_donate:active,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group #price_donate:focus {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group #price_donate:active,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group #price_donate:focus {
   background-color: #b1c800;
   color: #ffffff;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #payment_intervals hr {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #payment_intervals hr {
   display: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) small .payment_interval_info h4 {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) small .payment_interval_info h4 {
   font-size: 15px;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .form-control[name="payment_interval_id"] {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .form-control[name="payment_interval_id"] {
   border: none;
   box-shadow: none;
   background-color: #EFEFEF;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .table-striped > tbody > tr:nth-of-type(odd) {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .table-striped > tbody > tr:nth-of-type(odd) {
   background-color: transparent;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .table > thead > tr > th,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .table > tbody > tr > th,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .table > tfoot > tr > th,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .table > thead > tr > td,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .table > tbody > tr > td,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .table > tfoot > tr > td {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .table > thead > tr > th,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .table > tbody > tr > th,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .table > tfoot > tr > th,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .table > thead > tr > td,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .table > tbody > tr > td,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .table > tfoot > tr > td {
   border-top: 0px solid white;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) a[name="product_name"] {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) a[name="product_name"] {
   display: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .js_quantity {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .js_quantity {
   display: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) div[name="product_payment_interval"] {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) div[name="product_payment_interval"] {
   display: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .remove_product {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .remove_product {
   display: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #cart_total {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #cart_total {
   display: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .oe_currency_value {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .oe_currency_value {
   font-weight: 800;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .oe_currency_value::before {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .oe_currency_value::before {
   content: "Spendenbetrag: ";
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) thead {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) thead {
   display: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) td .text-right[name="product_price_quantity"] {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) td .text-right[name="product_price_quantity"] {
   width: 100% !important;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #wsd_checkout_form .form-group {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #wsd_checkout_form .form-group {
   margin-left: -10px;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .glyphicon-info-sign {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .glyphicon-info-sign {
   color: orange;
   background-color: white;
   border-color: white;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .glyphicon-info-sign:hover {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .glyphicon-info-sign:hover {
   color: orange;
   background-color: white;
   border-color: white;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .glyphicon {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .glyphicon {
   font-size: 15px;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .fsoforms_field_snippet .row {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .fsoforms_field_snippet .row {
   margin-left: -10px;
   margin-top: -15px;
   font-size: 15px;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .text-danger {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .text-danger {
   color: #808080;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #wsd_checkout_form label.control-label.mandatory.text-danger {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #wsd_checkout_form label.control-label.mandatory.text-danger {
   color: #808080;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success .help-block,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success .control-label,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success .radio,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success .checkbox,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success .radio-inline,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success .checkbox-inline,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success.radio label,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success.checkbox label,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success.radio-inline label,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success.checkbox-inline label {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .has-success .help-block,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .has-success .control-label,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .has-success .radio,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .has-success .checkbox,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .has-success .radio-inline,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .has-success .checkbox-inline,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .has-success.radio label,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .has-success.checkbox label,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .has-success.radio-inline label,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .has-success.checkbox-inline label {
   color: #808080;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success .form-control {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .has-success .form-control {
   border-color: #cccccc;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .has-success .form-control-feedback {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .has-success .form-control-feedback {
   color: #b1c800;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .form-control:focus {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .form-control:focus {
   border-color: #b1c800;
   outline: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) input:-internal-autofill-selected {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) input:-internal-autofill-selected {
   background-color: -internal-light-dark(#f6fee8, rgba(106, 126, 70, 0.4)) !important;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) td[name="product_remove"] {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) td[name="product_remove"] {
   margin: 0;
   padding: 0;
   height: 0;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) a.btn-primary .wsd_checkout_form_submit_button_text {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) a.btn-primary .wsd_checkout_form_submit_button_text {
   font-size: 18px;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) a.btn-primary .wsd_checkout_form_submit_button_icon {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) a.btn-primary .wsd_checkout_form_submit_button_icon {
   font-size: 15px;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #payment_method .nav.nav-tabs li.active a:hover {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #payment_method .nav.nav-tabs li.active a:hover {
   background-color: #fdc578;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #payment_method .nav.nav-tabs li.active a {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #payment_method .nav.nav-tabs li.active a {
   background-color: #fdc578;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #payment_method .nav.nav-tabs a.focus,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #payment_method .nav.nav-tabs a.focus-visible,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #payment_method .nav.nav-tabs a.hover {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #payment_method .nav.nav-tabs a.focus,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #payment_method .nav.nav-tabs a.focus-visible,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #payment_method .nav.nav-tabs a.hover {
   outline: 0;
   outline-offset: 0;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .nav-tabs > li.active > a,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .nav-tabs > li.active > a:hover,
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .nav-tabs > li.active > a:focus {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .nav-tabs > li.active > a,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .nav-tabs > li.active > a:hover,
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .nav-tabs > li.active > a:focus {
   border: 0px;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .nav-tabs > li > a {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .nav-tabs > li > a {
   border: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #payment_method .nav > li > a img {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #payment_method .nav > li > a img {
   margin: 0 auto;
   width: auto;
   height: 30px;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .tab-acquirer-name span {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .tab-acquirer-name span {
   font-size: 16px;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) div#payment_method.row.js_payment.wsd_opc_payment {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) div#payment_method.row.js_payment.wsd_opc_payment {
   margin-left: -5px;
   margin-right: -5px;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) div#payment_method.row.js_payment.wsd_opc_payment .form-group {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) div#payment_method.row.js_payment.wsd_opc_payment .form-group {
   padding-left: 0;
   padding-right: 0;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) div#payment_method.row.js_payment.wsd_opc_payment .form-group .form-control {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) div#payment_method.row.js_payment.wsd_opc_payment .form-group .form-control {
   box-shadow: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #payment_method .acquirer_pre_msg p {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #payment_method .acquirer_pre_msg p {
   padding: 8px 0 8px 0;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) a#button_paynow {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) a#button_paynow {
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -357,34 +357,34 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
   padding-left: 0;
   padding-right: 0;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) a#button_paynow span {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) a#button_paynow span {
   font-size: 2.5rem;
   font-weight: 800;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) div.payment_billing_address {
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) div.payment_billing_address {
   display: none;
 }
 @media (max-width: 500px) {
-  body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .oe_cart table td:last-child,
-  body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .oe_cart table td:nth-last-child(2),
-  body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #modal_optional_products table td:last-child,
-  body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #modal_optional_products table td:nth-last-child(2) {
+  body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .oe_cart table td:last-child,
+  body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .oe_cart table td:nth-last-child(2),
+  body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #modal_optional_products table td:last-child,
+  body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #modal_optional_products table td:nth-last-child(2) {
     width: 100% !important;
   }
-  body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) td [name="product_remove"] {
+  body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) td [name="product_remove"] {
     margin: 0;
     padding: 0;
     height: 0;
   }
 }
 @media (max-width: 400px) {
-  body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .oe_cart table td:last-child,
-  body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .oe_cart table td:nth-last-child(2),
-  body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #modal_optional_products table td:last-child,
-  body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #modal_optional_products table td:nth-last-child(2) {
+  body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .oe_cart table td:last-child,
+  body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .oe_cart table td:nth-last-child(2),
+  body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #modal_optional_products table td:last-child,
+  body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #modal_optional_products table td:nth-last-child(2) {
     width: 100% !important;
   }
-  body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) td [name="product_remove"] {
+  body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) td [name="product_remove"] {
     margin: 0;
     padding: 0;
     height: 0;

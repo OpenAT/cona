@@ -192,14 +192,16 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .price_donate_suggested_currency {
-  font-size: 12px;
-}
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #payment_intervals hr {
   display: none;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) small .payment_interval_info h4 {
   font-size: 15px;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .form-control[name="payment_interval_id"] {
+  border: none;
+  box-shadow: none;
+  background-color: #EFEFEF;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .table-striped > tbody > tr:nth-of-type(odd) {
   background-color: transparent;

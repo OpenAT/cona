@@ -1,7 +1,6 @@
 /* concordia product theme - for One Page Checkout*/
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) {
   /*Containerabstand*/
-  /*Zurueckbutton ausgeblendet*/
   /*Rahmen rundherum*/
   /*Headline ausblenden*/
   /*Spenden-Button*/
@@ -13,13 +12,8 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-co
   /*Textbereich in Formular*/
   /*Pflichtfelder Textfarbe*/
   /*Form-Eintragungsfeld*/
-  /*Abstand Spendenbetrag und Zahlungsarten*/
-  /*Weiterbutton bei Form-Felder*/
   /*Zahlungsarten*/
   /*Zahlungsarten-Rahmen*/
-  /*Letzter Spendenbutton*/
-  /*Rechnungsanschrift Seite 3*/
-  /*Warenkorbansicht mobil*/
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .container {
   padding-right: 0px;
@@ -84,9 +78,6 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-co
   padding: 0;
   margin-left: 0px;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #wsd_checkout_steps_nav {
-  display: none;
-}
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .panel-default {
   border-color: none;
 }
@@ -126,8 +117,14 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-co
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .form-group {
   margin-bottom: 10px;
-  padding-left: 0px;
-  padding-right: 0px;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .priduct_price .form-group {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) div .product_price .mt16 {
+  margin-left: -10px;
+  margin-right: -10px;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .btn:focus,
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .btn:active:focus,
@@ -296,16 +293,8 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-co
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) input:-internal-autofill-selected {
   background-color: -internal-light-dark(#f6fee8, rgba(106, 126, 70, 0.4)) !important;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) td[name="product_remove"] {
-  margin: 0;
-  padding: 0;
-  height: 0;
-}
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) a.btn-primary .wsd_checkout_form_submit_button_text {
-  font-size: 18px;
-}
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) a.btn-primary .wsd_checkout_form_submit_button_icon {
-  font-size: 15px;
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .form-control {
+  box-shadow: none;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #payment_method .nav.nav-tabs li.active a:hover {
   background-color: #fdc578;
@@ -327,14 +316,6 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-co
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .nav-tabs > li > a {
   border: none;
 }
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #payment_method .nav > li > a img {
-  margin: 0 auto;
-  width: auto;
-  height: 30px;
-}
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .tab-acquirer-name span {
-  font-size: 16px;
-}
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) div#payment_method.row.js_payment.wsd_opc_payment {
   margin-left: 0px;
   margin-right: 0px;
@@ -348,45 +329,4 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-co
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #payment_method .acquirer_pre_msg p {
   padding: 8px 0 8px 0;
-}
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) a#button_paynow {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  max-width: 300px;
-  padding-left: 0;
-  padding-right: 0;
-}
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) a#button_paynow span {
-  font-size: 2.5rem;
-  font-weight: 800;
-}
-body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) div.payment_billing_address {
-  display: none;
-}
-@media (max-width: 500px) {
-  body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .oe_cart table td:last-child,
-  body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .oe_cart table td:nth-last-child(2),
-  body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #modal_optional_products table td:last-child,
-  body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #modal_optional_products table td:nth-last-child(2) {
-    width: 100% !important;
-  }
-  body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) td [name="product_remove"] {
-    margin: 0;
-    padding: 0;
-    height: 0;
-  }
-}
-@media (max-width: 400px) {
-  body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .oe_cart table td:last-child,
-  body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .oe_cart table td:nth-last-child(2),
-  body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #modal_optional_products table td:last-child,
-  body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #modal_optional_products table td:nth-last-child(2) {
-    width: 100% !important;
-  }
-  body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) td [name="product_remove"] {
-    margin: 0;
-    padding: 0;
-    height: 0;
-  }
 }

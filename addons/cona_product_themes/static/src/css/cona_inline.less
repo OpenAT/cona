@@ -7,7 +7,7 @@
 
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) {
 
-  /*Containerabstand*/
+/*Containerabstand*/
   
   .container {
     padding-right: 0px;
@@ -29,16 +29,8 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-co
     }
   
   }
-  
-  
-  /*Zurueckbutton ausgeblendet*/
-  
-  #wsd_checkout_steps_nav {
-    display: none;
-  }
-  
-  
-  /*Rahmen rundherum*/
+
+/*Rahmen rundherum*/
   .panel-default {
     border-color: none;
   }
@@ -49,7 +41,7 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-co
     box-shadow: none;
   }
   
-  /*Headline ausblenden*/
+/*Headline ausblenden*/
   
   h1 {display: none;
   }
@@ -58,7 +50,7 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-co
     display: none;
   }
   
-  /*Spenden-Button*/
+/*Spenden-Button*/
   
   .btn {
     border: none;
@@ -95,9 +87,19 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-co
   
   .form-group {
     margin-bottom: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
   }
+  
+  .priduct_price .form-group{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  div .product_price .mt16 {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+
   
   .btn:focus,
   .btn:active:focus,
@@ -201,8 +203,6 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-co
     background-color: transparent;
   }
   
-  
-  
   .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
     border-top: 0px solid white;
   }
@@ -293,7 +293,7 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-co
   }
   
   
-  /*Form-Eintragungsfeld*/
+/*Form-Eintragungsfeld*/
   
   .has-success .form-control {
     border-color: #cccccc;
@@ -314,28 +314,14 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-co
     background-color: -internal-light-dark(rgb(246, 254, 232), rgba(106, 126, 70, 0.4)) !important;
   
   }
-  
-  
-  /*Abstand Spendenbetrag und Zahlungsarten*/
-  
-  td[name="product_remove"] {
-    margin: 0;
-    padding: 0;
-    height: 0;
+
+  .form-control {
+    box-shadow: none;
   }
   
   
-  /*Weiterbutton bei Form-Felder*/
   
-  a.btn-primary .wsd_checkout_form_submit_button_text {
-    font-size: 18px;
-  }
-  
-  a.btn-primary .wsd_checkout_form_submit_button_icon {
-    font-size: 15px;
-  }
-  
-  /*Zahlungsarten*/
+/*Zahlungsarten*/
   
   #payment_method .nav.nav-tabs li.active a:hover {
     background-color: rgb(253,197,120);
@@ -360,20 +346,10 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-co
   .nav-tabs > li > a {
     border: none;
   }
-  
-  #payment_method .nav > li > a img {
-    margin: 0 auto;
-    width: auto;
-    height: 30px;
-  }
-  
-  .tab-acquirer-name span {
-    font-size: 16px;
-  }
+
   
   
-  
-  /*Zahlungsarten-Rahmen*/
+/*Zahlungsarten-Rahmen*/
   
   div#payment_method.row.js_payment.wsd_opc_payment {
     margin-left: 0px;
@@ -392,55 +368,5 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-co
   #payment_method .acquirer_pre_msg p {
     padding: 8px 0 8px 0;
   }
-  
-  
-  /*Letzter Spendenbutton*/
-  
-  a#button_paynow {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    max-width: 300px;
-    padding-left: 0;
-    padding-right: 0;
-    
-    span {
-     font-size: 2.5rem;
-     font-weight: 800;
-    }
-  }
-  
-  /*Rechnungsanschrift Seite 3*/
-  
-  div.payment_billing_address {
-    display: none;
-  }
-  
-  /*Warenkorbansicht mobil*/
-  
-  @media (max-width: 500px) {
-    .oe_cart table td:last-child, .oe_cart table td:nth-last-child(2), #modal_optional_products table td:last-child, #modal_optional_products table td:nth-last-child(2) {
-        width: 100% !important;
-      }
-  
-    td [name="product_remove"] {
-        margin: 0;
-        padding: 0;
-        height: 0;
-      }
-    }
-  
-  @media (max-width: 400px) {
-    .oe_cart table td:last-child, .oe_cart table td:nth-last-child(2), #modal_optional_products table td:last-child, #modal_optional_products table td:nth-last-child(2) {
-        width: 100% !important;
-      } 
-  
-    td [name="product_remove"] {
-        margin: 0;
-        padding: 0;
-        height: 0;
-      }
-    } 
-  
-  }
+}
   

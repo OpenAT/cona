@@ -16,6 +16,7 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
   /*Abstand Spendenbetrag und Zahlungsarten*/
   /*Weiterbutton bei Form-Felder*/
   /*Zahlungsarten*/
+  /*Zahlungsarten-Rahmen*/
   /*Letzter Spendenbutton*/
   /*Rechnungsanschrift Seite 3*/
   /*Warenkorbansicht mobil*/
@@ -322,6 +323,31 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .nav-tabs > li.active > a:hover,
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .nav-tabs > li.active > a:focus {
   border: 0px;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .nav-tabs > li > a {
+  border: none;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #payment_method .nav > li > a img {
+  margin: 0 auto;
+  width: auto;
+  height: 30px;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .tab-acquirer-image span {
+  font-size: 16px;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) form .payment_opc_acquirer_form {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) form .payment_opc_acquirer_form .form-group {
+  padding-left: 0;
+  padding-right: 0;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) form .payment_opc_acquirer_form .form-group .form-control {
+  box-shadow: none;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) #payment_method .acquirer_pre_msg p {
+  padding: 8px 0 8px 0;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) a#button_paynow {
   margin-left: auto;

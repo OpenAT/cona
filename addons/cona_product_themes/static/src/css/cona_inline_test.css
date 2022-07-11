@@ -146,7 +146,7 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .btn-default {
   background: none;
-  background-color: rgba(252, 175, 23, 0.4);
+  background-color: #c7c7c7;
   color: #323232;
   box-shadow: none;
 }
@@ -159,7 +159,7 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .btn-primary:hover,
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price btn-primary > a:visited {
   background: none;
-  background-color: #fcaf17;
+  background-color: #b1c800;
   border-color: none;
   box-shadow: none;
 }
@@ -171,23 +171,23 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
   height: 50px;
   text-align: center;
   color: #505050;
-  background-color: rgba(252, 175, 23, 0.4);
+  background-color: #c7c7c7;
   box-shadow: none;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group .input-group-addon {
   background: none;
-  background-color: rgba(252, 175, 23, 0.4);
+  background-color: #c7c7c7;
   border-radius: 0px;
   border: none;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group .input-group-addon:active,
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group .input-group-addon:focus {
-  background-color: #fcaf17;
+  background-color: #b1c800;
   color: #ffffff;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group #price_donate:active,
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .product_price .arbitrary_price_form_group #price_donate:focus {
-  background-color: #fcaf17;
+  background-color: #b1c800;
   color: #ffffff;
   -webkit-box-shadow: none;
   box-shadow: none;

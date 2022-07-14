@@ -361,6 +361,9 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
   font-size: 2.5rem;
   font-weight: 800;
 }
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) div.row.js_payment.wsd_opc_payment {
+  margin-bottom: 25px;
+}
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) div.payment_billing_address {
   display: none;
 }

@@ -120,6 +120,9 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-co
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) a.btn-primary span {
   font-size: 2.5rem;
 }
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) div.text-left {
+  margin-bottom: 25px;
+}
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) div.product_price.mt16 {
   margin-left: -10px;
   margin-right: -10px;

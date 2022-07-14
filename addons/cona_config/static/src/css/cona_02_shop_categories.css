@@ -10,7 +10,7 @@ body[data-rootcatid="4"] {
 body[data-rootcatid="4"] div.products_pager {
   display: none;
 }
-body[data-rootcatid="4"] #products_grid .oe_product section a {
+body[data-rootcatid="4"] h5 #products_grid .oe_product section a {
   color: #b1c800;
 }
 body[data-rootcatid="4"] .text-info {
@@ -36,6 +36,7 @@ body[data-rootcatid="4"] .oe_product_cart .quick_add_to_cart {
 body[data-rootcatid="4"] #products_grid section > div.product_price.text-primary > b > span {
   top: 33%;
   right: 25%;
+  position: absolute;
 }
 /* Categories listview Responsive */
 @media (max-width: 480px) {

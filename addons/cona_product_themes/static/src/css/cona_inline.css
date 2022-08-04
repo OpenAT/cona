@@ -199,6 +199,10 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-co
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .product_price #price_donate.btn-primary {
+  background-color: #b1c800;
+  color: #ffffff;
+}
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #payment_intervals hr {
   display: none;
 }

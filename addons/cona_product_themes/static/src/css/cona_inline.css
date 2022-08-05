@@ -7,12 +7,7 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-co
   /*Spendenbetraege*/
   /*Spenden-Intervall*/
   /*Warenkorb*/
-  /*Formfelder Abstand
-  
-  #wsd_checkout_form .form-group {
-    margin-left: 0px;
-  }
-  */
+  /*Formfelder Abstand */
   /*Info Symbol*/
   /*Textbereich in Formular*/
   /*Pflichtfelder Textfarbe*/
@@ -251,6 +246,9 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-co
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) td .text-right[name="product_price_quantity"] {
   width: 100% !important;
+}
+body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) #wsd_checkout_form_inside_row .form-group {
+  margin-bottom: 20px;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .glyphicon-info-sign {
   color: orange;

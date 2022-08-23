@@ -111,7 +111,7 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
   border-radius: 0px;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) a#add_to_cart {
-  font-weight: 800;
+  font-weight: 600;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .btn-primary {
   -webkit-box-shadow: none;
@@ -233,7 +233,7 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
   display: none;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .oe_currency_value {
-  font-weight: 800;
+  font-weight: 600;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) .oe_currency_value::before {
   content: "Spendenbetrag: ";
@@ -361,7 +361,7 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([da
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) a#button_paynow span {
   font-size: 2.5rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline_test]:not([data-confirmation-controller-called=True]) div.row.js_payment.wsd_opc_payment {
   margin-bottom: 25px;

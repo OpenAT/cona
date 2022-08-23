@@ -102,7 +102,7 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-co
   border-radius: 0px;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) a#add_to_cart {
-  font-weight: 800;
+  font-weight: 600;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .btn-primary {
   -webkit-box-shadow: none;
@@ -236,7 +236,7 @@ body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-co
   display: none;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .oe_currency_value {
-  font-weight: 800;
+  font-weight: 600;
 }
 body[data-on-shop-page=True][data-latest-product-theme=cona_inline]:not([data-confirmation-controller-called=True]) .oe_currency_value::before {
   content: "Spendenbetrag: ";

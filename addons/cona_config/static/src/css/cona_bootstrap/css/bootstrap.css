@@ -1083,7 +1083,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: ff-meta-web-pro, helvetica, sans-serif;
+  font-family: Fira sans, helvetica, sans-serif;
   font-size: 18px;
   line-height: 1.42857143;
   color: #808080;
@@ -5974,7 +5974,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: ff-meta-web-pro, helvetica, sans-serif;
+  font-family: Fira Sans, helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.42857143;
@@ -6092,7 +6092,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: ff-meta-web-pro, helvetica, sans-serif;
+  font-family: Fira Sans, helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.42857143;

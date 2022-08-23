@@ -31,7 +31,7 @@ body #wrapwrap footer {
 /* Fonts Styling Extra Anpassung */
 h1 {
   font-size: 22px;
-  font-family: "ff-meta-web-pro", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   padding: 20px 0;
   letter-spacing: 0.03em;
   font-weight: 800 !important;
@@ -40,7 +40,7 @@ h1 {
 
 h2 {
   font-size: 20px;
-  font-family: "ff-meta-web-pro", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   padding: 15px 0;
   font-weight: 800 !important;
   letter-spacing: 0.03em;
@@ -50,7 +50,7 @@ h2 {
 
 h3 {
   font-size: 22px;
-  font-family: "ff-meta-web-pro", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   padding: 10px 0;
   font-weight: 800 !important;
   color: #b1c800;
@@ -58,7 +58,7 @@ h3 {
 
 h4 {
   font-size: 22px;
-  font-family: "ff-meta-web-pro", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   padding: 10px 0;
   font-weight: 800;
   color: #b1c800;
@@ -66,7 +66,7 @@ h4 {
 
 p, span, p a, span a, li, label, select, select option, textarea {
   font-size: 18px;
-  font-family: "ff-meta-web-pro", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Fira Sans", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   color: inherit;
 }
 

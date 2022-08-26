@@ -4,6 +4,97 @@
 */
 
 
+
+/*
+@font-face {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-regular.eot'); 
+    src: local('Fira Sans'),
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-regular.eot?#iefix') format('embedded-opentype'), 
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-regular.woff2') format('woff2'), 
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-regular.woff') format('woff'), 
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-regular.ttf') format('truetype'), 
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-regular.svg#FiraSans') format('svg'); 
+  }
+
+  @font-face {
+    font-family: 'Fira Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-italic.eot'); 
+    src: local('Fira Sans'),
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-italic.eot?#iefix') format('embedded-opentype'), 
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-italic.woff2') format('woff2'), 
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-italic.woff') format('woff'), 
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-italic.ttf') format('truetype'), 
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-italic.svg#FiraSans') format('svg'); 
+  }
+
+  @font-face {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/fira-sans-v16-latin-700.eot'); 
+    src: local('Fira Sans'),
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-700.eot?#iefix') format('embedded-opentype'), 
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-700.woff2') format('woff2'), 
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-700.woff') format('woff'), 
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-700.ttf') format('truetype'), 
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-700.svg#FiraSans') format('svg'); 
+  }
+ 
+  @font-face {
+    font-family: 'Fira Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-700italic.eot'); 
+    src: local('Fira Sans'),
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-700italic.eot?#iefix') format('embedded-opentype'), 
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-700italic.woff2') format('woff2'),
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-700italic.woff') format('woff'),
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-700italic.ttf') format('truetype'), 
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-700italic.svg#FiraSans') format('svg');
+  }
+
+  @font-face {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-800.eot'); 
+    src: local('Fira Sans'),
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-800.eot?#iefix') format('embedded-opentype'), 
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-800.woff2') format('woff2'), 
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-800.woff') format('woff'), 
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-800.ttf') format('truetype'), 
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-800.svg#FiraSans') format('svg'); 
+  }
+ 
+  @font-face {
+    font-family: 'Fira Sans';
+    font-style: italic;
+    font-weight: 800;
+    font-display: swap;
+    src: url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-800italic.eot'); 
+    src: local('Fira Sans'),
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-800italic.eot?#iefix') format('embedded-opentype'), 
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-800italic.woff2') format('woff2'), 
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-800italic.woff') format('woff'), 
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-800italic.ttf') format('truetype'), 
+         url('addons/cona_config/static/src/css/fonts/fira-sans-v16-latin-800italic.svg#FiraSans') format('svg'); 
+  }
+
+  */
+
+
+
+
 /*
  * The Typekit service used to deliver this font or fonts for use on websites
  * is provided by Adobe and is subject to these Terms of Use

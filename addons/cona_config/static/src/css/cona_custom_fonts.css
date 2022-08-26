@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400%3b0,700%3b0,800%3b1,400%3b1,700%3b1,800&display=swap");
+/* FEHLERHAFT LÖSUNG ersetze Semicolon https://github.com/laravel-mix/laravel-mix/issues/2430
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
+*/
+
+
 /*
  * The Typekit service used to deliver this font or fonts for use on websites
  * is provided by Adobe and is subject to these Terms of Use
@@ -23,12 +29,8 @@
  * © 2009-2021 Adobe Systems Incorporated. All Rights Reserved.
  */
 /*{"last_published":"2021-01-23 04:05:26 UTC"}*/
-@import url("https://p.typekit.net/p.css?s=1&k=vhh4ods&ht=tk&f=4648.4649.4650.4651.4660.5241.5301.5302.17570.17571.17572.17573&a=54724125&app=typekit&e=css");
+/*@import url("https://p.typekit.net/p.css?s=1&k=vhh4ods&ht=tk&f=4648.4649.4650.4651.4660.5241.5301.5302.17570.17571.17572.17573&a=54724125&app=typekit&e=css");
 
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400%3b0,700%3b0,800%3b1,400%3b1,700%3b1,800&display=swap");
-/* FEHLERHAFT LÖSUNG ersetze Semicolon https://github.com/laravel-mix/laravel-mix/issues/2430
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
-*/
 
 @font-face {
 font-family:"ff-meta-web-pro";
@@ -101,3 +103,4 @@ font-family:"ff-meta-correspondence-web-p";
 src:url("https://use.typekit.net/af/42f387/0000000000000000773599b3/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/42f387/0000000000000000773599b3/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/42f387/0000000000000000773599b3/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
 font-display:auto;font-style:normal;font-weight:400;
 }
+*/

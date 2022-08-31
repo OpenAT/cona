@@ -3,18 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
 */
 
+
 @font-face {
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('\fonts\fira-sans-v16-latin-regular.eot'); 
+    src: url('fonts/fira-sans-v16-latin-regular.eot'); 
     src: local('Fira Sans'),
-         url('\fonts\fira-sans-v16-latin-regular.eot?#iefix') format('embedded-opentype'), 
-         url('\fonts\fira-sans-v16-latin-regular.woff2') format('woff2'), 
-         url('\fonts\fira-sans-v16-latin-regular.woff') format('woff'), 
-         url('\fonts\fira-sans-v16-latin-regular.ttf') format('truetype'), 
-         url('\fonts\fira-sans-v16-latin-regular.svg#FiraSans') format('svg'); 
+         url('fonts/fira-sans-v16-latin-regular.eot?#iefix') format('embedded-opentype'), 
+         url('fonts/fira-sans-v16-latin-regular.woff2') format('woff2'), 
+         url('fonts/fira-sans-v16-latin-regular.woff') format('woff'), 
+         url('fonts/fira-sans-v16-latin-regular.ttf') format('truetype'), 
+         url('fonts/fira-sans-v16-latin-regular.svg#FiraSans') format('svg'); 
   }
 
   @font-face {
@@ -22,13 +23,13 @@
     font-style: italic;
     font-weight: 400;
     font-display: swap;
-    src: url('/fonts/fira-sans-v16-latin-italic.eot'); 
+    src: url('fonts/fira-sans-v16-latin-italic.eot'); 
     src: local('Fira Sans'),
-         url('/fonts/fira-sans-v16-latin-italic.eot?#iefix') format('embedded-opentype'), 
-         url('/fonts/fira-sans-v16-latin-italic.woff2') format('woff2'), 
-         url('/fonts/fira-sans-v16-latin-italic.woff') format('woff'), 
-         url('/fonts/fira-sans-v16-latin-italic.ttf') format('truetype'), 
-         url('/fonts/fira-sans-v16-latin-italic.svg#FiraSans') format('svg'); 
+         url('fonts/fira-sans-v16-latin-italic.eot?#iefix') format('embedded-opentype'), 
+         url('fonts/fira-sans-v16-latin-italic.woff2') format('woff2'), 
+         url('fonts/fira-sans-v16-latin-italic.woff') format('woff'), 
+         url('fonts/fira-sans-v16-latin-italic.ttf') format('truetype'), 
+         url('fonts/fira-sans-v16-latin-italic.svg#FiraSans') format('svg'); 
   }
 
   @font-face {

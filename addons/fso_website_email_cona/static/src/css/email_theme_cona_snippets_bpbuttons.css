@@ -37,8 +37,8 @@
     text-underline: none;
     text-decoration: none;
     /* for safety */
-    background-color: #F18E00;
-    border-color: #F18E00;
+    background-color: #f39200;
+    border-color: #F39200;
     color: white;
 }
 
@@ -81,8 +81,8 @@
 /* bpbutton_style_default */
 .snippet_block_bpbutton.bpbutton_style_default .bpbutton_table,
 .snippet_block_bpbutton.bpbutton_style_default .bpbutton_table a {
-    background-color: #F18E00;
-    border-color: #F18E00;
+    background-color: #F39200;
+    border-color: #F39200;
     color: #ffffff;
     font-weight: bold;
 }
@@ -90,8 +90,8 @@
 /* green */
 .snippet_block_bpbutton.bpbutton_style_green .bpbutton_table,
 .snippet_block_bpbutton.bpbutton_style_green .bpbutton_table a {
-    background-color: #46B16E;
-    border-color: #46B16E;
+    background-color: #b1c800;
+    border-color: #b1c800;
     color: white;
     font-weight: bold;
 }

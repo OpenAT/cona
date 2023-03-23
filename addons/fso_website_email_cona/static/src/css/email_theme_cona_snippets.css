@@ -86,17 +86,17 @@
 }
 .cona_sb_bg_orange .flexibleContainerCell,
 .cona_sb_fg_orange .flexibleContainerCell .nestedContainerCell {
-    background-color: #F18E00;
+    background-color: #f39200;
     color: white;
 }
 .cona_sb_bg_grey .flexibleContainerCell,
 .cona_sb_fg_grey .flexibleContainerCell .nestedContainerCell {
-    background-color: #d2d2d2;
+    background-color: #f0f0f0;
     color: black;
 }
 .cona_sb_bg_yellow .flexibleContainerCell,
 .cona_sb_fg_yellow .flexibleContainerCell .nestedContainerCell {
-    background-color: #E1CA99;
+    background-color: #fcc977;
     color: black;
 }
 
@@ -165,7 +165,7 @@
     background-color: #b1c800;
 }
 .snippet_block_text_image_left.cona_text_image_orange_box .contentTable {
-    background-color: #F18E00;
+    background-color: #f39200;
 }
 
 .snippet_block_text_image_left.cona_text_image_green_box .flexibleContainerCell,

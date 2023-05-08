@@ -170,3 +170,14 @@ p.cona_tiny {
 .cona_red {
     color: #ec6608;
 }
+
+/*
+    Default theme overrides
+*/
+@media only screen and (max-width: 480px) {
+    table.flexibleContainerRight,
+    table.flexibleContainerLeft,
+    table.flexibleContainer33 {
+        text-align: unset !important;
+    }
+}

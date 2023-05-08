@@ -67,11 +67,13 @@
         <!-- cona Background styles -->
         <xpath expr="//div[@data-snippet-option-id='dadi_sb_bg_color']//ul" position="replace">
             <ul class="dropdown-menu">
-                <li data-value=''><a>None</a></li>
-                <li data-value='cona_sb_bg_orange'><a>Orange</a></li>
-                <li data-value='cona_sb_bg_grey'><a>Grau</a></li>
-                <li data-value='cona_sb_bg_yellow'><a>Baige</a></li>
-                <li data-value='cona_sb_bg_background'><a>Background</a></li>
+                <li data-value=""><a>Keine</a></li>
+                <li data-value="cona_sb_bg_green"><a>Grün</a></li>
+                <li data-value="cona_sb_bg_lightgreen"><a>Hellgrün</a></li>
+                <li data-value="cona_sb_bg_orange"><a>Orange</a></li>
+                <li data-value="cona_sb_bg_yellow"><a>Baige</a></li>
+                <li data-value="cona_sb_bg_grey"><a>Grau</a></li>
+                <li data-value="cona_sb_bg_background"><a>Background</a></li>
             </ul>
         </xpath>
         

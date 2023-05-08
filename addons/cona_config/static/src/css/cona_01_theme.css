@@ -128,13 +128,13 @@ p a, span a {
     color: #fff;
 }
 .dropdown-menu > li > a {
-    color: white;
+    color: black;
 }
 .dropdown-menu {
     background-color: #DCDCDC;
 }
 .dropdown-menu > li > a:hover {
-    color: white;
+    color: black;
     background-color: #DCDCDC;
     -webkit-transition: color 0.3s ease 0s;
     -moz-transition: color 0.3s ease 0s;

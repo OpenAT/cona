@@ -81,12 +81,12 @@
 .cona_sb_fg_background .flexibleContainerCell .nestedContainerCell {
     background-color: #f6f6f5;
 }
-.cona_sb_bg_orange .flexibleContainerCell h1 {
-    color: white;
-}
 .cona_sb_bg_orange .flexibleContainerCell,
 .cona_sb_fg_orange .flexibleContainerCell .nestedContainerCell {
     background-color: #f39200;
+    color: white;
+}
+.cona_sb_bg_orange .flexibleContainerCell h1 {
     color: white;
 }
 .cona_sb_bg_grey .flexibleContainerCell,
@@ -98,6 +98,25 @@
 .cona_sb_fg_yellow .flexibleContainerCell .nestedContainerCell {
     background-color: #fcc977;
     color: black;
+}
+.cona_sb_bg_yellow .flexibleContainerCell h1 {
+    color: #f39200;
+}
+.cona_sb_bg_green .flexibleContainerCell,
+.cona_sb_fg_green .flexibleContainerCell .nestedContainerCell {
+    background-color: #b1c800;
+    color: black;
+}
+.cona_sb_bg_green .flexibleContainerCell h1 {
+    color: white;
+}
+.cona_sb_bg_lightgreen .flexibleContainerCell,
+.cona_sb_fg_lightgreen .flexibleContainerCell .nestedContainerCell {
+    background-color: #dde28e;
+    color: black;
+}
+.cona_sb_bg_lightgreen .flexibleContainerCell h1 {
+    color: #b1c800;
 }
 
 .cona_sb_fg_background .flexibleContainerCell .nestedContainerCell,

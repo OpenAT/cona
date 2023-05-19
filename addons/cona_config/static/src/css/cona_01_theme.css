@@ -34,7 +34,7 @@ h1 {
   font-family: "Fira Sans", sans-serif;
   padding: 20px 0;
   letter-spacing: 0.03em;
-  font-weight: 800 !important;
+  font-weight: 800;
   color: #b1c800;
 }
 
@@ -42,7 +42,7 @@ h2 {
   font-size: 20px;
   font-family: "Fira Sans", sans-serif;
   padding: 15px 0;
-  font-weight: 800 !important;
+  font-weight: 800;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #b1c800;
@@ -52,7 +52,7 @@ h3 {
   font-size: 22px;
   font-family: "Fira Sans", sans-serif;
   padding: 10px 0;
-  font-weight: 800 !important;
+  font-weight: 800;
   color: #b1c800;
 }
 

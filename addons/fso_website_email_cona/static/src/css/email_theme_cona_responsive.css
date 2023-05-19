@@ -39,37 +39,6 @@
         width: 100% !important;
     }
 
-    .h1, h1{
-        font-size: 24px;
-        padding-bottom: 12px;
-        font-weight: 700;
-    }
-
-    .h2, h2{
-        font-size: 22px;
-        font-weight: 700;
-    }
-
-    .h3, h3{
-        font-size: 20px;
-        font-weight: 300;
-    }
-
-    .h4, h4{
-        font-size: 18px;
-        font-weight: 300;
-    }
-
-    .h5, h5{
-        font-size: 16px;
-        font-weight: 300;
-    }
-
-    .h6, h6{
-        font-size: 14px;
-        font-weight: 300;
-    }
-
     .snippet_block_text_image_left.cona_text_image_blue_box .flexibleContainerRight .textContent,
     .snippet_block_text_image_left.cona_text_image_red_box .flexibleContainerRight .textContent {
         padding: 10px 20px;

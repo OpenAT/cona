@@ -90,7 +90,7 @@ p a, span a {
     vertical-align: middle;
 }
 .modal-open .modal {
-  overflow: visible; }
+  overflow: auto; }
 
 .modal {
   position: absolute; }

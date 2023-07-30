@@ -16,5 +16,5 @@
 #
 ##############################################################################
 
-#import controllers
-import models
+import res_partner
+import frst_personemailgruppe

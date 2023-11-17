@@ -1,3 +1,4 @@
+/*
 // For all shop links, scroll parent to top on click
 const debug = false;
 let parent_scroll_top_enabled = true;
@@ -58,3 +59,4 @@ function addScrollTopFrameElementHandler(elementId) {
 		});
 	}
 }
+*/

@@ -1,6 +1,5 @@
-/*
 // For all shop links, scroll parent to top on click
-const debug = false;
+const debug = true;
 let parent_scroll_top_enabled = true;
 
 if (window.self !== window.top) {
@@ -55,8 +54,11 @@ function addScrollTopFrameElementHandler(elementId) {
     		console.info("Hooking " + elementId);
 	    }
 		element.addEventListener('click', function(e) {
-			window.parentIFrame.getPageInfo((i) => { window.parentIFrame.scrollTo(0, i.offsetTop); })
+			window.parentIFrame.getPageInfo((i) => {
+			    console.log("Page-Info!");
+			    window.parentIFrame.getPageInfo(null);
+			    window.parentIFrame.scrollTo(0, i.offsetTop);
+            });
 		});
 	}
 }
-*/
